@@ -110,7 +110,7 @@ namespace CarParkingManagementSystem
                     if (manager.SuaNoiDoXe(txtID.Text, txtIDKhachhang.Text, txtIDNhanvien.Text, txtTrangthai.Text, txtGiatien.Text))
                     {
                         MessageBox.Show("Sửa thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        LoadData();
+                        LoadData(txtID.Text);
                     }
                     else
                     {

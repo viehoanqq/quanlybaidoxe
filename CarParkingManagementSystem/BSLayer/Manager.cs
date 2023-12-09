@@ -100,5 +100,57 @@ namespace CarParkingManagementSystem.BSLayer
             int result = cmd.ExecuteNonQuery();
             return result > 0;
         }
+
+        public DataTable GetAllThongTinCaNhan()
+        {
+            DataTable dt = new DataTable();
+            // SELECT ttcn.* FROM ThongTinCaNhan ttcn JOIN TaiKhoan tk ON ttcn.ID = tk.ID WHERE tk.vaiTro = 'nguoidung'
+            SqlCommand cmd = new SqlCommand("SELECT ttcn.* FROM ThongTinCaNhan ttcn JOIN TaiKhoan tk ON ttcn.ID = tk.ID WHERE tk.vaiTro = 'nguoidung'", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+        public DataTable GetThongTinCaNhanByID(string ID)
+        {
+            DataTable dt = new DataTable();
+            // SELECT ttcn.* FROM ThongTinCaNhan ttcn JOIN TaiKhoan tk ON ttcn.ID = tk.ID WHERE ttcn.ID = 'KH001' AND tk.vaiTro = 'nguoidung'
+            SqlCommand cmd = new SqlCommand("SELECT ttcn.* FROM ThongTinCaNhan ttcn JOIN TaiKhoan tk ON ttcn.ID = tk.ID WHERE ttcn.ID = '" + ID + "' AND tk.vaiTro = 'nguoidung'", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+        public DataTable TimKiemThongTinCaNhan(string keyword)
+        {
+            DataTable dt = new DataTable();
+            // SELECT ttcn.* FROM ThongTinCaNhan ttcn JOIN TaiKhoan tk ON ttcn.ID = tk.ID WHERE tk.vaiTro = 'nguoidung' AND (ttcn.ID LIKE '%25%' OR  	ttcn.bienSo LIKE '%25%' OR       ttcn.ten LIKE '%25%' OR       ttcn.tuoi LIKE '%25%' OR       ttcn.sdt LIKE '%25%' OR       ttcn.bienSo LIKE '%25%' 	  )
+            SqlCommand cmd = new SqlCommand("SELECT ttcn.* FROM ThongTinCaNhan ttcn JOIN TaiKhoan tk ON ttcn.ID = tk.ID WHERE tk.vaiTro = 'nguoidung' AND (ttcn.ID LIKE '%" + keyword + "%' OR  	ttcn.bienSo LIKE '%" + keyword + "%' OR       ttcn.ten LIKE '%" + keyword + "%' OR       ttcn.tuoi LIKE '%" + keyword + "%' OR       ttcn.sdt LIKE '%" + keyword + "%' OR       ttcn.bienSo LIKE '%" + keyword + "%' 	  )", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+        public bool ThemThongTinCaNhan(string ID, string ten, string tuoi, string sdt, string diachi, string bienSo, string ngayDoXe, string ngayLayXe, string sotien)
+        {
+            string sql = string.Format("insert into ThongTinCaNhan(ID, ten, tuoi, sdt, diachi, bienSo, ngayDoXe, ngayLayXe, sotien) values('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}')", ID, ten, tuoi, sdt, diachi, bienSo, ngayDoXe, ngayLayXe, sotien);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
+        public bool SuaThongTinCaNhan(string ID, string ten, string tuoi, string sdt, string diachi, string bienSo, string ngayDoXe, string ngayLayXe, string sotien)
+        {
+            string sql = string.Format("update ThongTinCaNhan set ten = '{0}', tuoi = '{1}', sdt = '{2}', diachi = '{3}', bienSo = '{4}', ngayDoXe = '{5}', ngayLayXe = '{6}', sotien = '{7}' where ID = '{8}'", ten, tuoi, sdt, diachi, bienSo, ngayDoXe, ngayLayXe, sotien, ID);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
+        public bool XoaThongTinCaNhan(string ID)
+        {
+            string sql = string.Format("delete from ThongTinCaNhan where ID = '{0}'", ID);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
     }
 }
