@@ -42,9 +42,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -55,10 +55,10 @@
             this.panel3.Controls.Add(this.btnCancel);
             this.panel3.Controls.Add(this.btnSave);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 410);
+            this.panel3.Location = new System.Drawing.Point(0, 506);
             this.panel3.Margin = new System.Windows.Forms.Padding(0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(518, 36);
+            this.panel3.Size = new System.Drawing.Size(692, 44);
             this.panel3.TabIndex = 16;
             // 
             // btnCancel
@@ -72,7 +72,7 @@
             this.btnCancel.Location = new System.Drawing.Point(0, 0);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(0);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(259, 36);
+            this.btnCancel.Size = new System.Drawing.Size(347, 44);
             this.btnCancel.TabIndex = 13;
             this.btnCancel.Text = "Hủy";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -86,62 +86,63 @@
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSave.Location = new System.Drawing.Point(259, 0);
+            this.btnSave.Location = new System.Drawing.Point(347, 0);
             this.btnSave.Margin = new System.Windows.Forms.Padding(0);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(259, 36);
+            this.btnSave.Size = new System.Drawing.Size(345, 44);
             this.btnSave.TabIndex = 12;
             this.btnSave.Text = "Lưu";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txtAddress
             // 
             this.txtAddress.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtAddress.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.Location = new System.Drawing.Point(39, 334);
+            this.txtAddress.Location = new System.Drawing.Point(53, 412);
             this.txtAddress.Margin = new System.Windows.Forms.Padding(0);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(443, 27);
+            this.txtAddress.Size = new System.Drawing.Size(589, 32);
             this.txtAddress.TabIndex = 13;
             // 
             // txtSDT
             // 
             this.txtSDT.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtSDT.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSDT.Location = new System.Drawing.Point(39, 272);
+            this.txtSDT.Location = new System.Drawing.Point(53, 336);
             this.txtSDT.Margin = new System.Windows.Forms.Padding(0);
             this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(443, 27);
+            this.txtSDT.Size = new System.Drawing.Size(589, 32);
             this.txtSDT.TabIndex = 14;
             // 
             // txtAge
             // 
             this.txtAge.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtAge.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAge.Location = new System.Drawing.Point(39, 210);
+            this.txtAge.Location = new System.Drawing.Point(53, 259);
             this.txtAge.Margin = new System.Windows.Forms.Padding(0);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(443, 27);
+            this.txtAge.Size = new System.Drawing.Size(589, 32);
             this.txtAge.TabIndex = 14;
             // 
             // txtID
             // 
             this.txtID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtID.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtID.Location = new System.Drawing.Point(39, 88);
+            this.txtID.Location = new System.Drawing.Point(53, 109);
             this.txtID.Margin = new System.Windows.Forms.Padding(0);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(443, 27);
+            this.txtID.Size = new System.Drawing.Size(589, 32);
             this.txtID.TabIndex = 15;
             // 
             // txtName
             // 
             this.txtName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtName.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(39, 149);
+            this.txtName.Location = new System.Drawing.Point(53, 184);
             this.txtName.Margin = new System.Windows.Forms.Padding(0);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(443, 27);
+            this.txtName.Size = new System.Drawing.Size(589, 32);
             this.txtName.TabIndex = 15;
             // 
             // label3
@@ -151,10 +152,10 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(35, 313);
+            this.label3.Location = new System.Drawing.Point(48, 386);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 19);
+            this.label3.Size = new System.Drawing.Size(85, 23);
             this.label3.TabIndex = 10;
             this.label3.Text = "Địa chỉ:";
             // 
@@ -165,10 +166,10 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(35, 251);
+            this.label5.Location = new System.Drawing.Point(48, 310);
             this.label5.Margin = new System.Windows.Forms.Padding(0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 19);
+            this.label5.Size = new System.Drawing.Size(134, 23);
             this.label5.TabIndex = 11;
             this.label5.Text = "Số điện thoại:";
             // 
@@ -179,10 +180,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(35, 67);
+            this.label2.Location = new System.Drawing.Point(48, 83);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 19);
+            this.label2.Size = new System.Drawing.Size(36, 23);
             this.label2.TabIndex = 12;
             this.label2.Text = "ID:";
             // 
@@ -193,10 +194,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(35, 189);
+            this.label1.Location = new System.Drawing.Point(48, 234);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 19);
+            this.label1.Size = new System.Drawing.Size(51, 23);
             this.label1.TabIndex = 11;
             this.label1.Text = "Tuổi:";
             // 
@@ -207,10 +208,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(35, 128);
+            this.label4.Location = new System.Drawing.Point(48, 159);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 19);
+            this.label4.Size = new System.Drawing.Size(77, 23);
             this.label4.TabIndex = 12;
             this.label4.Text = "Họ tên:";
             // 
@@ -223,8 +224,40 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(518, 36);
+            this.panel2.Size = new System.Drawing.Size(692, 44);
             this.panel2.TabIndex = 0;
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnMinimize.FlatAppearance.BorderSize = 0;
+            this.btnMinimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
+            this.btnMinimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Image = global::CarParkingManagementSystem.Properties.Resources.minimize_white;
+            this.btnMinimize.Location = new System.Drawing.Point(572, 0);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(0);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(60, 44);
+            this.btnMinimize.TabIndex = 8;
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Image = global::CarParkingManagementSystem.Properties.Resources.exit_white;
+            this.btnExit.Location = new System.Drawing.Point(632, 0);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(0);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(60, 44);
+            this.btnExit.TabIndex = 7;
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // panel1
             // 
@@ -245,49 +278,18 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(522, 450);
+            this.panel1.Size = new System.Drawing.Size(696, 554);
             this.panel1.TabIndex = 3;
-            // 
-            // btnMinimize
-            // 
-            this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnMinimize.FlatAppearance.BorderSize = 0;
-            this.btnMinimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
-            this.btnMinimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
-            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimize.Image = global::CarParkingManagementSystem.Properties.Resources.minimize_white;
-            this.btnMinimize.Location = new System.Drawing.Point(428, 0);
-            this.btnMinimize.Margin = new System.Windows.Forms.Padding(0);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(45, 36);
-            this.btnMinimize.TabIndex = 8;
-            this.btnMinimize.UseVisualStyleBackColor = true;
-            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnExit.FlatAppearance.BorderSize = 0;
-            this.btnExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Image = global::CarParkingManagementSystem.Properties.Resources.exit_white;
-            this.btnExit.Location = new System.Drawing.Point(473, 0);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(0);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(45, 36);
-            this.btnExit.TabIndex = 7;
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // formStaffDetail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(522, 450);
+            this.ClientSize = new System.Drawing.Size(696, 554);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "formStaffDetail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "formStaffDetail";
