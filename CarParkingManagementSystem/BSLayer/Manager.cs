@@ -281,6 +281,57 @@ namespace CarParkingManagementSystem.BSLayer
             int result = cmd.ExecuteNonQuery();
             return result > 0;
         }
+
+        public DataTable GetAllTaiKhoan()
+        {
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand("select * from TaiKhoan", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+        public DataTable GetTaiKhoanByID(string ID)
+        {
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand("select * from TaiKhoan where ID = '" + ID + "'", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+        public DataTable TimKiemTaiKhoan(string keyword)
+        {
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand("select * from TaiKhoan where ID like '%" + keyword + "%' or username like '%" + keyword + "%' or password like '%" + keyword + "%' or vaiTro like '%" + keyword + "%'", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+        public bool ThemTaiKhoan(string ID, string username, string password, string vaiTro)
+        {
+            string sql = string.Format("insert into TaiKhoan(ID, username, password, vaiTro) values('{0}', '{1}', '{2}', '{3}')", ID, username, password, vaiTro);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
+        public bool SuaTaiKhoan(string ID, string username, string password, string vaiTro)
+        {
+            string sql = string.Format("update TaiKhoan set username = '{0}', password = '{1}', vaiTro = '{2}' where ID = '{3}'", username, password, vaiTro, ID);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
+        public bool XoaTaiKhoan(string ID)
+        {
+            string sql = string.Format("delete from TaiKhoan where ID = '{0}'", ID);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
+
+
         static string GenerateRandomString(string prefix, int length)
         {
             const string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
