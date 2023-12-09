@@ -103,7 +103,7 @@ namespace CarParkingManagementSystem
             btnBaidoxe.BackColor = Color.DarkSlateGray;
             btnThongtindoxe.BackColor = Color.DarkSlateGray;
 
-            formUser form = new formUser();
+            formUserCustomer form = new formUserCustomer(ID);
             form.ShowDialog();
         }
 

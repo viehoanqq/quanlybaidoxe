@@ -23,6 +23,42 @@ namespace CarParkingManagementSystem.BSLayer
             return dt;
         }
 
+        public DataTable User(string ID)
+        {
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand("select ID, ten, tuoi, diachi, sdt from ThongTinCaNhan where ID = '" + ID + "'", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+
+        public DataTable user_pass(string ID)
+        {
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand("select username, password from TaiKhoan where ID = '" + ID + "'", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+
+        public bool DoiMatKhau(string username, string password)
+        {
+            string sql = string.Format("update TaiKhoan set password = '{0}' where username = '{1}'", password, username);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
+
+        public bool SuaThongTinCaNhan(string ID, string ten, string tuoi, string sdt, string diachi)
+        {
+            string sql = string.Format("update ThongTinCaNhan set ten = '{0}', tuoi = '{1}', sdt = '{2}', diachi = '{3}' where ID = '{4}'", ten, tuoi, sdt, diachi, ID);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
+
         public object NumOfSpace()
         {
             object dt;

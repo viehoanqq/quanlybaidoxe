@@ -28,15 +28,31 @@ namespace CarParkingManagementSystem
         public void LoadData()
         {
             DataTable dt = customer.ThongtinDoxe(IDKH);
-            this.lblID.Text = dt.Rows[0]["ID"].ToString();
-            this.lblName.Text = dt.Rows[0]["ten"].ToString();
-            this.lblAge.Text = dt.Rows[0]["tuoi"].ToString();
-            this.lblSDT.Text = dt.Rows[0]["sdt"].ToString();
-            this.lblAddress.Text = dt.Rows[0]["diachi"].ToString();
-            this.lblBienso.Text = dt.Rows[0]["bienSo"].ToString();
-            this.lblNgaydoxe.Text = dt.Rows[0]["ngayDoXe"].ToString();
-            this.lblNgaylayxe.Text = dt.Rows[0]["ngayLayXe"].ToString();
-            this.lblPhidoxe.Text = dt.Rows[0]["sotien"].ToString() + "đ";
+            if (dt.Rows.Count > 0 )
+            {
+                this.lblID.Text = dt.Rows[0]["ID"].ToString();
+                this.lblName.Text = dt.Rows[0]["ten"].ToString();
+                this.lblAge.Text = dt.Rows[0]["tuoi"].ToString();
+                this.lblSDT.Text = dt.Rows[0]["sdt"].ToString();
+                this.lblAddress.Text = dt.Rows[0]["diachi"].ToString();
+                this.lblBienso.Text = dt.Rows[0]["bienSo"].ToString();
+                this.lblNgaydoxe.Text = dt.Rows[0]["ngayDoXe"].ToString();
+                this.lblNgaylayxe.Text = dt.Rows[0]["ngayLayXe"].ToString();
+                this.lblPhidoxe.Text = dt.Rows[0]["sotien"].ToString() + "đ";
+            }
+            else
+            {
+                this.lblID.Text = "";
+                this.lblName.Text = "";
+                this.lblAge.Text = "";
+                this.lblSDT.Text = "";
+                this.lblAddress.Text = "";
+                this.lblBienso.Text = "";
+                this.lblNgaydoxe.Text = "";
+                this.lblNgaylayxe.Text = "";
+                this.lblPhidoxe.Text = "0đ";
+                btnRetrieve.Enabled = false;
+            }
         }
 
         private void formParkingInformation_Load(object sender, EventArgs e)
@@ -47,7 +63,11 @@ namespace CarParkingManagementSystem
 
         private void parkingLot()
         {
-            parked.IDSpace = customer.ViTriDoXe(IDKH).ToString();
+            object IDspace = null;
+            if (NullReferenceException.Equals(customer.ViTriDoXe(IDKH), IDspace))
+                parked.IDSpace = "IDSpace";
+            else
+                parked.IDSpace = customer.ViTriDoXe(IDKH).ToString();
             parked.Icon = Resources.car;
             parked.IconBg = Color.Gainsboro;            
         }
