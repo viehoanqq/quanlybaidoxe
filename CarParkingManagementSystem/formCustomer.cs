@@ -7,19 +7,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CarParkingManagementSystem.DBLayer;
+using CarParkingManagementSystem.BSLayer;
 
 namespace CarParkingManagementSystem
 {
     public partial class formCustomer : Form
     {
+        Manager manager = new Manager();
         public formCustomer()
         {
             InitializeComponent();
         }
+        public void LoadData()
+        {
+            try
+            {
+                this.dtgChitietCanhan.DataSource = manager.GetAllThongTinCaNhan();
+            }
+            catch
+            {
+                MessageBox.Show("Không lấy được nội dung trong table Khách hàng. Lỗi rồi!!!");
+            }
+        }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            formCustomerDetail form = new formCustomerDetail();
+            // lấy dữ liệu cột ID của dòng hiện tại
+            int r = dtgChitietCanhan.CurrentCell.RowIndex;
+            string id = dtgChitietCanhan.Rows[r].Cells[0].Value.ToString();
+            formCustomerDetail form = new formCustomerDetail(id);
             form.ShowDialog();
         }
 
@@ -27,6 +44,57 @@ namespace CarParkingManagementSystem
         {
             formCustomerDetail form = new formCustomerDetail();
             form.ShowDialog();
+        }
+
+        private void formCustomer_Load(object sender, EventArgs e)
+        {
+            LoadData();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // lấy dữ liệu cột ID của dòng hiện tại
+                int r = dtgChitietCanhan.CurrentCell.RowIndex;
+                string id = dtgChitietCanhan.Rows[r].Cells[0].Value.ToString();
+                DialogResult traloi;
+                traloi = MessageBox.Show("Bạn có chắc xóa không?", "Thông báo",
+                                   MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (traloi == DialogResult.Yes)
+                {
+                    manager.XoaThongTinCaNhan(id);
+                    LoadData();
+                    MessageBox.Show("Đã xóa xong!");
+                }
+                else
+                {
+                    MessageBox.Show("Không thực hiện việc xóa dữ liệu!");
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Không thể xóa dữ liệu này!");
+            }
+        }
+
+        private void btnReload_Click(object sender, EventArgs e)
+        {
+            LoadData();
+        }
+
+        private void txtFind_KeyUp(object sender, KeyEventArgs e)
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                dt = manager.TimKiemThongTinCaNhan(txtFind.Text);
+                dtgChitietCanhan.DataSource = dt;
+            }
+            catch
+            {
+                MessageBox.Show("Không tìm thấy!");
+            }
         }
     }
 }

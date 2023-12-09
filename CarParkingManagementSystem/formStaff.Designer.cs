@@ -28,18 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnAdd = new System.Windows.Forms.Button();
             this.txtFind = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.dtgChitietCanhan = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -62,10 +57,10 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnAdd.Location = new System.Drawing.Point(632, 0);
+            this.btnAdd.Location = new System.Drawing.Point(843, 0);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(0);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(35, 27);
+            this.btnAdd.Size = new System.Drawing.Size(47, 33);
             this.btnAdd.TabIndex = 19;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -75,11 +70,12 @@
             // 
             this.txtFind.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtFind.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFind.Location = new System.Drawing.Point(50, 0);
+            this.txtFind.Location = new System.Drawing.Point(67, 0);
             this.txtFind.Margin = new System.Windows.Forms.Padding(0);
             this.txtFind.Name = "txtFind";
-            this.txtFind.Size = new System.Drawing.Size(254, 27);
+            this.txtFind.Size = new System.Drawing.Size(337, 32);
             this.txtFind.TabIndex = 18;
+            this.txtFind.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFind_KeyUp);
             // 
             // label4
             // 
@@ -87,10 +83,10 @@
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(0, 5);
+            this.label4.Location = new System.Drawing.Point(0, 6);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 18);
+            this.label4.Size = new System.Drawing.Size(68, 25);
             this.label4.TabIndex = 17;
             this.label4.Text = "Find:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -99,36 +95,31 @@
             // 
             this.dtgChitietCanhan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgChitietCanhan.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgChitietCanhan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgChitietCanhan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dtgChitietCanhan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgChitietCanhan.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
             this.dtgChitietCanhan.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgChitietCanhan.Location = new System.Drawing.Point(0, 34);
+            this.dtgChitietCanhan.Location = new System.Drawing.Point(0, 42);
             this.dtgChitietCanhan.Margin = new System.Windows.Forms.Padding(0);
             this.dtgChitietCanhan.Name = "dtgChitietCanhan";
-            this.dtgChitietCanhan.Size = new System.Drawing.Size(737, 422);
+            this.dtgChitietCanhan.RowHeadersWidth = 51;
+            this.dtgChitietCanhan.Size = new System.Drawing.Size(983, 519);
             this.dtgChitietCanhan.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.dtgChitietCanhan);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(9, 96);
+            this.panel1.Location = new System.Drawing.Point(12, 118);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(737, 456);
+            this.panel1.Size = new System.Drawing.Size(983, 561);
             this.panel1.TabIndex = 24;
             // 
             // panel2
@@ -145,33 +136,8 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(737, 34);
+            this.panel2.Size = new System.Drawing.Size(983, 42);
             this.panel2.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "ID";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Họ tên";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Tuổi";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Địa chỉ";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Số điện thoại";
-            this.Column5.Name = "Column5";
             // 
             // btnSave
             // 
@@ -184,10 +150,10 @@
             this.btnSave.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnSave.Image = global::CarParkingManagementSystem.Properties.Resources.save1;
-            this.btnSave.Location = new System.Drawing.Point(598, 0);
+            this.btnSave.Location = new System.Drawing.Point(797, 0);
             this.btnSave.Margin = new System.Windows.Forms.Padding(0);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(35, 27);
+            this.btnSave.Size = new System.Drawing.Size(47, 33);
             this.btnSave.TabIndex = 21;
             this.btnSave.Text = "+";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -203,10 +169,10 @@
             this.btnEdit.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnEdit.Image = global::CarParkingManagementSystem.Properties.Resources.edit__1_;
-            this.btnEdit.Location = new System.Drawing.Point(667, 0);
+            this.btnEdit.Location = new System.Drawing.Point(889, 0);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(0);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(35, 27);
+            this.btnEdit.Size = new System.Drawing.Size(47, 33);
             this.btnEdit.TabIndex = 19;
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
@@ -222,12 +188,13 @@
             this.btnDelete.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnDelete.Image = global::CarParkingManagementSystem.Properties.Resources.delete__1_;
-            this.btnDelete.Location = new System.Drawing.Point(702, 0);
+            this.btnDelete.Location = new System.Drawing.Point(936, 0);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(0);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(35, 27);
+            this.btnDelete.Size = new System.Drawing.Size(47, 33);
             this.btnDelete.TabIndex = 19;
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnReload
             // 
@@ -241,12 +208,13 @@
             this.btnReload.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReload.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnReload.Image = global::CarParkingManagementSystem.Properties.Resources.reload;
-            this.btnReload.Location = new System.Drawing.Point(345, 0);
+            this.btnReload.Location = new System.Drawing.Point(460, 0);
             this.btnReload.Margin = new System.Windows.Forms.Padding(0);
             this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(35, 27);
+            this.btnReload.Size = new System.Drawing.Size(47, 33);
             this.btnReload.TabIndex = 19;
             this.btnReload.UseVisualStyleBackColor = false;
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
             // btnFind
             // 
@@ -260,10 +228,10 @@
             this.btnFind.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFind.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnFind.Image = global::CarParkingManagementSystem.Properties.Resources.find;
-            this.btnFind.Location = new System.Drawing.Point(307, 0);
+            this.btnFind.Location = new System.Drawing.Point(409, 0);
             this.btnFind.Margin = new System.Windows.Forms.Padding(0);
             this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(35, 27);
+            this.btnFind.Size = new System.Drawing.Size(47, 33);
             this.btnFind.TabIndex = 19;
             this.btnFind.UseVisualStyleBackColor = false;
             // 
@@ -276,10 +244,10 @@
             this.btnPayment.ForeColor = System.Drawing.Color.Black;
             this.btnPayment.Image = global::CarParkingManagementSystem.Properties.Resources.staff;
             this.btnPayment.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPayment.Location = new System.Drawing.Point(382, 19);
+            this.btnPayment.Location = new System.Drawing.Point(509, 23);
             this.btnPayment.Margin = new System.Windows.Forms.Padding(0);
             this.btnPayment.Name = "btnPayment";
-            this.btnPayment.Size = new System.Drawing.Size(364, 66);
+            this.btnPayment.Size = new System.Drawing.Size(485, 81);
             this.btnPayment.TabIndex = 20;
             this.btnPayment.Text = "Attendant";
             this.btnPayment.UseVisualStyleBackColor = false;
@@ -293,26 +261,28 @@
             this.btnManager.ForeColor = System.Drawing.Color.Black;
             this.btnManager.Image = global::CarParkingManagementSystem.Properties.Resources.manager;
             this.btnManager.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnManager.Location = new System.Drawing.Point(9, 19);
+            this.btnManager.Location = new System.Drawing.Point(12, 23);
             this.btnManager.Margin = new System.Windows.Forms.Padding(0);
             this.btnManager.Name = "btnManager";
-            this.btnManager.Size = new System.Drawing.Size(364, 66);
+            this.btnManager.Size = new System.Drawing.Size(485, 81);
             this.btnManager.TabIndex = 18;
             this.btnManager.Text = "Manager";
             this.btnManager.UseVisualStyleBackColor = false;
             // 
             // formStaff
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(756, 614);
+            this.ClientSize = new System.Drawing.Size(1008, 756);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnPayment);
             this.Controls.Add(this.btnManager);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "formStaff";
             this.Text = "formStaff";
+            this.Load += new System.EventHandler(this.formStaff_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgChitietCanhan)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -335,11 +305,6 @@
         private System.Windows.Forms.DataGridView dtgChitietCanhan;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Button btnSave;
     }
 }

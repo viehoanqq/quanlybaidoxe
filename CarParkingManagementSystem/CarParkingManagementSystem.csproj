@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BSLayer\Attendant.cs" />
+    <Compile Include="BSLayer\Customer.cs" />
+    <Compile Include="BSLayer\login.cs" />
+    <Compile Include="BSLayer\Manager.cs" />
+    <Compile Include="DBLayer\Connector.cs" />
     <Compile Include="formAccount.cs">
       <SubType>Form</SubType>
     </Compile>
