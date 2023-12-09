@@ -8,14 +8,20 @@ using CarParkingManagementSystem.Properties;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CarParkingManagementSystem.DBLayer;
+using CarParkingManagementSystem.BSLayer;
 
 namespace CarParkingManagementSystem
 {
     public partial class formParkingLot : Form
     {
-        public formParkingLot()
+        Customer customer = new Customer();
+        public string ID;
+
+        public formParkingLot(string id)
         {
             InitializeComponent();
+            ID = id;
         }
 
         private void formParkingLot_Load(object sender, EventArgs e)
@@ -25,23 +31,29 @@ namespace CarParkingManagementSystem
 
         private void parkingLot()
         {
-            parkingSpace[] parkingSpaces = new parkingSpace[20];
+            DataTable dt = new DataTable();
+            dt = customer.BaiDoXe();
+            int numOfSpace = int.Parse(customer.NumOfSpace().ToString());
+            parkingSpace[] parkingSpaces = new parkingSpace[100];
 
-            for (int i = 0; i < parkingSpaces.Length; i++)
+            for (int i = 0; i < numOfSpace; i++)
             {
-                if (i == 1 || i == 3 || i == 4 || i == 7 || i == 9 || i == 10 || i == 11 || i == 14 || i == 15 || i == 20)
+                if (dt.Rows[i]["IDNguoiDung"].ToString().Trim() == string.Empty)
                 {
                     parkingSpaces[i] = new parkingSpace();
-                    parkingSpaces[i].ID = "ID Space";
+                    parkingSpaces[i].IDSpace = dt.Rows[i]["IDDoXe"].ToString().Trim();
+                    parkingSpaces[i].IconBg = Color.White;
+                    parkingSpaces[i].IDKH = ID;
                 }
                 else
                 {
                     parkingSpaces[i] = new parkingSpace();
-                    parkingSpaces[i].ID = "ID Space";
+                    parkingSpaces[i].IDSpace = dt.Rows[i]["IDDoXe"].ToString().Trim();
                     parkingSpaces[i].Icon = Resources.car;
                     parkingSpaces[i].IconBg = Color.LightGray;
-                }                
-                
+                    parkingSpaces[i].IDKH = ID;
+                }
+
                 if (layoutPnl.Controls.Count < 0)
                     layoutPnl.Controls.Clear();
                 else

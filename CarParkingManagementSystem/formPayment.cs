@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CarParkingManagementSystem.BSLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,13 +13,23 @@ namespace CarParkingManagementSystem
 {
     public partial class formPayment : Form
     {
-        public formPayment()
+        Customer customer = new Customer();
+        public string IDKH;
+
+        public formPayment(string id)
         {
             InitializeComponent();
+            IDKH = id;
         }
         private void formPayment_Load(object sender, EventArgs e)
         {
-
+            DataTable dt = customer.ThongtinDoxe(IDKH);
+            this.txtID.Text = dt.Rows[0]["ID"].ToString();
+            this.txtName.Text = dt.Rows[0]["ten"].ToString();
+            this.txtBienso.Text = dt.Rows[0]["bienSo"].ToString();
+            this.txtNgaydoxe.Text = dt.Rows[0]["ngayDoXe"].ToString();
+            this.txtNgaylayxe.Text = dt.Rows[0]["ngayLayXe"].ToString();
+            this.txtPhidoxe.Text = dt.Rows[0]["sotien"].ToString();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -37,6 +48,7 @@ namespace CarParkingManagementSystem
             btnInternet.BackColor = Color.WhiteSmoke;
             btnVidientu.BackColor = Color.WhiteSmoke;
             btnChuyenkhoan.BackColor = Color.WhiteSmoke;
+            btnThanhtoan.Enabled = true;
         }
 
         private void btnInternet_Click(object sender, EventArgs e)
@@ -45,6 +57,7 @@ namespace CarParkingManagementSystem
             btnInternet.BackColor = Color.Silver;
             btnVidientu.BackColor = Color.WhiteSmoke;
             btnChuyenkhoan.BackColor = Color.WhiteSmoke;
+            btnThanhtoan.Enabled = true;
         }
 
         private void btnVidientu_Click(object sender, EventArgs e)
@@ -53,6 +66,7 @@ namespace CarParkingManagementSystem
             btnInternet.BackColor = Color.WhiteSmoke;
             btnVidientu.BackColor = Color.Silver;
             btnChuyenkhoan.BackColor = Color.WhiteSmoke;
+            btnThanhtoan.Enabled = true;
         }
 
         private void btnChuyenkhoan_Click(object sender, EventArgs e)
@@ -61,6 +75,14 @@ namespace CarParkingManagementSystem
             btnInternet.BackColor = Color.WhiteSmoke;
             btnVidientu.BackColor = Color.WhiteSmoke;
             btnChuyenkhoan.BackColor = Color.Silver;
+            btnThanhtoan.Enabled = true;
+        }
+
+        private void btnThanhtoan_Click(object sender, EventArgs e)
+        {
+            customer.LayXe(customer.ViTriDoXe(IDKH).ToString());
+            MessageBox.Show("Thanh toán thành công!");
+            this.Close();
         }
     }
 }

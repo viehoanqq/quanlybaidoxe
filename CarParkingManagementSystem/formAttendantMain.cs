@@ -72,7 +72,7 @@ namespace CarParkingManagementSystem
             btnBaidoxe.BackColor = Color.Firebrick;
             btnKhachhang.BackColor = Color.DarkSlateGray;
 
-            openChildForm(new formParkingLot());
+            //openChildForm(new formParkingLot());
         }
 
         private void btnKhachhang_Click(object sender, EventArgs e)

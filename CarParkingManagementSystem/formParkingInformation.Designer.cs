@@ -250,15 +250,16 @@
             // 
             this.lblPhidoxe.AutoSize = true;
             this.lblPhidoxe.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPhidoxe.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhidoxe.ForeColor = System.Drawing.Color.Black;
-            this.lblPhidoxe.Location = new System.Drawing.Point(372, 106);
+            this.lblPhidoxe.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhidoxe.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblPhidoxe.Location = new System.Drawing.Point(364, 106);
             this.lblPhidoxe.Margin = new System.Windows.Forms.Padding(0);
             this.lblPhidoxe.Name = "lblPhidoxe";
-            this.lblPhidoxe.Size = new System.Drawing.Size(80, 17);
+            this.lblPhidoxe.Size = new System.Drawing.Size(89, 18);
             this.lblPhidoxe.TabIndex = 23;
             this.lblPhidoxe.Text = "Phí đỗ xe";
             this.lblPhidoxe.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblPhidoxe.Click += new System.EventHandler(this.lblPhidoxe_Click);
             // 
             // groupBox1
             // 
@@ -471,7 +472,8 @@
             this.parked.BackColor = System.Drawing.Color.White;
             this.parked.Icon = null;
             this.parked.IconBg = System.Drawing.Color.Empty;
-            this.parked.ID = null;
+            this.parked.IDKH = null;
+            this.parked.IDSpace = null;
             this.parked.Location = new System.Drawing.Point(0, 0);
             this.parked.Margin = new System.Windows.Forms.Padding(0);
             this.parked.Name = "parked";

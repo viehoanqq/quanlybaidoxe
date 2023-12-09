@@ -7,14 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CarParkingManagementSystem.DBLayer;
+using CarParkingManagementSystem.BSLayer;
 
 namespace CarParkingManagementSystem
 {
     public partial class formCustomerMain : Form
     {
-        public formCustomerMain()
+        Customer customer = new Customer();
+        public string ID;
+
+        public formCustomerMain(string id)
         {
             InitializeComponent();
+            ID = id;
         }
 
         public void openChildForm(Form childForm)
@@ -26,6 +32,11 @@ namespace CarParkingManagementSystem
             pnlMain.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
+        }
+
+        public void LoadData()
+        {
+            btnUser.Text = "           " + customer.GetNameCustomer(ID).ToString();
         }
 
         private void formCustomerMain_Load(object sender, EventArgs e)
@@ -40,6 +51,8 @@ namespace CarParkingManagementSystem
                 this.btnRestoreDown.Visible = false;
                 this.btnMaximize.Visible = true;
             }
+
+            LoadData();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -72,7 +85,7 @@ namespace CarParkingManagementSystem
             btnBaidoxe.BackColor = Color.Firebrick;
             btnThongtindoxe.BackColor = Color.DarkSlateGray;
 
-            openChildForm(new formParkingLot());
+            openChildForm(new formParkingLot(ID));
         }
 
         private void btnThongtindoxe_Click(object sender, EventArgs e)
@@ -81,7 +94,7 @@ namespace CarParkingManagementSystem
             btnBaidoxe.BackColor = Color.DarkSlateGray;
             btnThongtindoxe.BackColor = Color.Firebrick;
 
-            openChildForm(new formParkingInformation());
+            openChildForm(new formParkingInformation(ID));
         }
 
         private void btnUser_Click(object sender, EventArgs e)

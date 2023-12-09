@@ -49,9 +49,17 @@ namespace CarParkingManagementSystem
             try
             {
                 object dt = taikhoan.loginCheck(txtUsername.Text, txtPassword.Text);
-                if (dt.ToString()=="quanli")
+                if (dt.ToString() == "quanli")
                 {
-                    formMain form = new formMain();
+                    this.Hide();
+                    formMain form = new formMain();                    
+                    form.Show();
+                }
+                else if (dt.ToString() == "nguoidung")
+                {
+                    string id = taikhoan.ID(txtUsername.Text, txtPassword.Text).ToString().Trim();
+                    this.Hide();
+                    formCustomerMain form = new formCustomerMain(id);
                     form.Show();
                 }
                 else

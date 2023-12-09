@@ -56,7 +56,6 @@
             this.btnInternet = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
             this.btnTienmat = new System.Windows.Forms.Button();
-            this.panel12 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
@@ -310,6 +309,7 @@
             // btnThanhtoan
             // 
             this.btnThanhtoan.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnThanhtoan.Enabled = false;
             this.btnThanhtoan.FlatAppearance.BorderSize = 0;
             this.btnThanhtoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThanhtoan.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -321,6 +321,7 @@
             this.btnThanhtoan.TabIndex = 28;
             this.btnThanhtoan.Text = "Thanh toán";
             this.btnThanhtoan.UseVisualStyleBackColor = false;
+            this.btnThanhtoan.Click += new System.EventHandler(this.btnThanhtoan_Click);
             // 
             // panel6
             // 
@@ -333,7 +334,6 @@
             this.panel6.Controls.Add(this.btnInternet);
             this.panel6.Controls.Add(this.panel9);
             this.panel6.Controls.Add(this.btnTienmat);
-            this.panel6.Controls.Add(this.panel12);
             this.panel6.Controls.Add(this.panel8);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel6.Location = new System.Drawing.Point(0, 15);
@@ -346,7 +346,7 @@
             // 
             this.panel13.BackColor = System.Drawing.Color.Gainsboro;
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel13.Location = new System.Drawing.Point(0, 317);
+            this.panel13.Location = new System.Drawing.Point(0, 316);
             this.panel13.Margin = new System.Windows.Forms.Padding(0);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(280, 1);
@@ -362,7 +362,7 @@
             this.btnChuyenkhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChuyenkhoan.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChuyenkhoan.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnChuyenkhoan.Location = new System.Drawing.Point(0, 239);
+            this.btnChuyenkhoan.Location = new System.Drawing.Point(0, 238);
             this.btnChuyenkhoan.Margin = new System.Windows.Forms.Padding(0);
             this.btnChuyenkhoan.Name = "btnChuyenkhoan";
             this.btnChuyenkhoan.Size = new System.Drawing.Size(280, 78);
@@ -375,7 +375,7 @@
             // 
             this.panel11.BackColor = System.Drawing.Color.Gainsboro;
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 238);
+            this.panel11.Location = new System.Drawing.Point(0, 237);
             this.panel11.Margin = new System.Windows.Forms.Padding(0);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(280, 1);
@@ -391,7 +391,7 @@
             this.btnVidientu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVidientu.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVidientu.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnVidientu.Location = new System.Drawing.Point(0, 160);
+            this.btnVidientu.Location = new System.Drawing.Point(0, 159);
             this.btnVidientu.Margin = new System.Windows.Forms.Padding(0);
             this.btnVidientu.Name = "btnVidientu";
             this.btnVidientu.Size = new System.Drawing.Size(280, 78);
@@ -404,7 +404,7 @@
             // 
             this.panel10.BackColor = System.Drawing.Color.Gainsboro;
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(0, 159);
+            this.panel10.Location = new System.Drawing.Point(0, 158);
             this.panel10.Margin = new System.Windows.Forms.Padding(0);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(280, 1);
@@ -420,7 +420,7 @@
             this.btnInternet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInternet.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInternet.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnInternet.Location = new System.Drawing.Point(0, 81);
+            this.btnInternet.Location = new System.Drawing.Point(0, 80);
             this.btnInternet.Margin = new System.Windows.Forms.Padding(0);
             this.btnInternet.Name = "btnInternet";
             this.btnInternet.Size = new System.Drawing.Size(280, 78);
@@ -433,7 +433,7 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.Gainsboro;
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(0, 80);
+            this.panel9.Location = new System.Drawing.Point(0, 79);
             this.panel9.Margin = new System.Windows.Forms.Padding(0);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(280, 1);
@@ -449,7 +449,7 @@
             this.btnTienmat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTienmat.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTienmat.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnTienmat.Location = new System.Drawing.Point(0, 2);
+            this.btnTienmat.Location = new System.Drawing.Point(0, 1);
             this.btnTienmat.Margin = new System.Windows.Forms.Padding(0);
             this.btnTienmat.Name = "btnTienmat";
             this.btnTienmat.Size = new System.Drawing.Size(280, 78);
@@ -457,16 +457,6 @@
             this.btnTienmat.Text = "Thanh toán bằng tiền mặt";
             this.btnTienmat.UseVisualStyleBackColor = false;
             this.btnTienmat.Click += new System.EventHandler(this.btnTienmat_Click);
-            // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel12.Location = new System.Drawing.Point(0, 1);
-            this.panel12.Margin = new System.Windows.Forms.Padding(0);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(280, 1);
-            this.panel12.TabIndex = 19;
             // 
             // panel8
             // 
@@ -528,7 +518,6 @@
         private System.Windows.Forms.Button btnInternet;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Button btnTienmat;
-        private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button btnThanhtoan;
         private System.Windows.Forms.TextBox txtPhidoxe;
