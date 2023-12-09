@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lb_SoLuongBaiDo = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lb_SoXeDaTra = new System.Windows.Forms.Label();
+            this.lb_SoTienDaTra = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dtgChitietBaidoxe = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -65,33 +65,33 @@
             this.lb_SoLuongBaiDo.Text = "0";
             this.lb_SoLuongBaiDo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // lb_SoXeDaTra
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.DarkGray;
-            this.label1.Font = new System.Drawing.Font("Verdana", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(613, 59);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 45);
-            this.label1.TabIndex = 16;
-            this.label1.Text = "0";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lb_SoXeDaTra.AutoSize = true;
+            this.lb_SoXeDaTra.BackColor = System.Drawing.Color.DarkGray;
+            this.lb_SoXeDaTra.Font = new System.Drawing.Font("Verdana", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_SoXeDaTra.ForeColor = System.Drawing.Color.Black;
+            this.lb_SoXeDaTra.Location = new System.Drawing.Point(613, 59);
+            this.lb_SoXeDaTra.Margin = new System.Windows.Forms.Padding(0);
+            this.lb_SoXeDaTra.Name = "lb_SoXeDaTra";
+            this.lb_SoXeDaTra.Size = new System.Drawing.Size(46, 45);
+            this.lb_SoXeDaTra.TabIndex = 16;
+            this.lb_SoXeDaTra.Text = "0";
+            this.lb_SoXeDaTra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // lb_SoTienDaTra
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.DarkGray;
-            this.label3.Font = new System.Drawing.Font("Verdana", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(945, 59);
-            this.label3.Margin = new System.Windows.Forms.Padding(0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 45);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "0";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lb_SoTienDaTra.AutoSize = true;
+            this.lb_SoTienDaTra.BackColor = System.Drawing.Color.DarkGray;
+            this.lb_SoTienDaTra.Font = new System.Drawing.Font("Verdana", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_SoTienDaTra.ForeColor = System.Drawing.Color.Black;
+            this.lb_SoTienDaTra.Location = new System.Drawing.Point(945, 59);
+            this.lb_SoTienDaTra.Margin = new System.Windows.Forms.Padding(0);
+            this.lb_SoTienDaTra.Name = "lb_SoTienDaTra";
+            this.lb_SoTienDaTra.Size = new System.Drawing.Size(46, 45);
+            this.lb_SoTienDaTra.TabIndex = 16;
+            this.lb_SoTienDaTra.Text = "0";
+            this.lb_SoTienDaTra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
             // 
@@ -107,14 +107,14 @@
             // 
             this.dtgChitietBaidoxe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgChitietBaidoxe.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgChitietBaidoxe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgChitietBaidoxe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dtgChitietBaidoxe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgChitietBaidoxe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgChitietBaidoxe.Location = new System.Drawing.Point(0, 42);
@@ -234,6 +234,7 @@
             this.btnReload.Size = new System.Drawing.Size(47, 33);
             this.btnReload.TabIndex = 19;
             this.btnReload.UseVisualStyleBackColor = false;
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
             // btnFind
             // 
@@ -263,6 +264,7 @@
             this.txtFind.Name = "txtFind";
             this.txtFind.Size = new System.Drawing.Size(337, 32);
             this.txtFind.TabIndex = 18;
+            this.txtFind.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFind_KeyUp);
             // 
             // label4
             // 
@@ -339,8 +341,8 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1008, 756);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lb_SoTienDaTra);
+            this.Controls.Add(this.lb_SoXeDaTra);
             this.Controls.Add(this.lb_SoLuongBaiDo);
             this.Controls.Add(this.btnPayment);
             this.Controls.Add(this.btnRetrieveCar);
@@ -365,8 +367,8 @@
         private System.Windows.Forms.Button btnRetrieveCar;
         private System.Windows.Forms.Button btnPayment;
         private System.Windows.Forms.Label lb_SoLuongBaiDo;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lb_SoXeDaTra;
+        private System.Windows.Forms.Label lb_SoTienDaTra;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dtgChitietBaidoxe;
         private System.Windows.Forms.Panel panel2;
