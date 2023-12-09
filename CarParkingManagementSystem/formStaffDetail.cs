@@ -44,6 +44,7 @@ namespace CarParkingManagementSystem
             this.txtAge.Text = dt.Rows[0]["tuoi"].ToString();
             this.txtSDT.Text = dt.Rows[0]["sdt"].ToString();
             this.txtAddress.Text = dt.Rows[0]["diachi"].ToString();
+            this.txtID.Enabled = false;
         }
 
         private void formStaffDetail_Load(object sender, EventArgs e)

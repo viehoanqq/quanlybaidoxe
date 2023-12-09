@@ -52,6 +52,7 @@ namespace CarParkingManagementSystem
             this.txtNgaydoxe.Text = dt.Rows[0]["ngayDoXe"].ToString();
             this.txtNgaylayxe.Text = dt.Rows[0]["ngayLayXe"].ToString();
             this.txtPhidoxe.Text = dt.Rows[0]["sotien"].ToString();
+            this.txtID.Enabled = false;
         }
 
         private void formCustomerDetail_Load(object sender, EventArgs e)
