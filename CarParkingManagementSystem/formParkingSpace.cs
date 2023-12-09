@@ -45,7 +45,10 @@ namespace CarParkingManagementSystem
         }
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            formParkingSpaceDetail form = new formParkingSpaceDetail();
+            // lấy dữ liệu cột IDDoXe của dòng hiện tại
+            int r = dtgChitietBaidoxe.CurrentCell.RowIndex;
+            string id = dtgChitietBaidoxe.Rows[r].Cells[0].Value.ToString();
+            formParkingSpaceDetail form = new formParkingSpaceDetail(id);
             form.ShowDialog();
         }
 
@@ -76,6 +79,38 @@ namespace CarParkingManagementSystem
             catch (Exception)
             {
                 MessageBox.Show("Không tìm thấy!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // lấy dữ liệu cột IDDoXe của dòng hiện tại
+                int r = dtgChitietBaidoxe.CurrentCell.RowIndex;
+                string id = dtgChitietBaidoxe.Rows[r].Cells[0].Value.ToString();
+                DialogResult traloi;
+                traloi = MessageBox.Show("Bạn có chắc chắn muốn xóa?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                if (traloi == DialogResult.OK)
+                {
+                    if (manager.XoaNoiDoXe(id))
+                    {
+                        MessageBox.Show("Xóa thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        LoadData();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Xóa không thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Xóa không thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Không thể xóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
