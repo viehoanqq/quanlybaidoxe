@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CarParkingManagementSystem.DBLayer;
+using CarParkingManagementSystem.BSLayer;
 
 namespace CarParkingManagementSystem
 {
     public partial class formLogin : Form
     {
+        login taikhoan = new login();
         public formLogin()
         {
             InitializeComponent();
@@ -39,14 +42,37 @@ namespace CarParkingManagementSystem
         private void btnLogin_Click(object sender, EventArgs e)
         {
             if (txtUsername.Text.Trim() == string.Empty || txtPassword.Text.Trim() == string.Empty)
+            {
                 MessageBox.Show("Hãy nhập đầy đủ thông tin đăng nhập!", "Thiếu thông tin", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            else
+                return;
+            }
+            try
+            {
+                object dt = taikhoan.loginCheck(txtUsername.Text, txtPassword.Text);
+                if (dt.ToString()=="quanli")
+                {
+                    formMain form = new formMain();
+                    form.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Thông tin đăng nhập không chính xác. Mời nhập lại!", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtUsername.Clear();
+                    txtPassword.Clear();
+                    txtUsername.Focus();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            /*else
             {
                 MessageBox.Show("Thông tin đăng nhập không chính xác. Mời nhập lại!", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtUsername.Clear();
                 txtPassword.Clear();
                 txtUsername.Focus();
-            }
+            }*/
         }
 
         private void ptbHidePass_Click(object sender, EventArgs e)
