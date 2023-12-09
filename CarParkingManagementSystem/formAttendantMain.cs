@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CarParkingManagementSystem
 {
-    public partial class formMain : Form
+    public partial class formAttendantMain : Form
     {
-        public formMain()
+        public formAttendantMain()
         {
             InitializeComponent();
         }
@@ -28,7 +28,7 @@ namespace CarParkingManagementSystem
             childForm.Show();
         }
 
-        private void formMain_Load(object sender, EventArgs e)
+        private void formAttendantMain_Load(object sender, EventArgs e)
         {
             if (this.WindowState == FormWindowState.Maximized)
             {
@@ -68,72 +68,27 @@ namespace CarParkingManagementSystem
 
         private void btnBaidoxe_Click(object sender, EventArgs e)
         {
-            btnTaikhoan.BackColor = Color.DarkSlateGray;
             btnUser.BackColor = Color.DarkSlateGray;
             btnBaidoxe.BackColor = Color.Firebrick;
             btnKhachhang.BackColor = Color.DarkSlateGray;
-            btnNhanvien.BackColor = Color.DarkSlateGray;
-            btnReport.BackColor = Color.DarkSlateGray;
 
-            openChildForm(new formParkingSpace());
+            openChildForm(new formParkingLot());
         }
 
         private void btnKhachhang_Click(object sender, EventArgs e)
         {
-            btnTaikhoan.BackColor = Color.DarkSlateGray;
             btnUser.BackColor = Color.DarkSlateGray;
             btnBaidoxe.BackColor = Color.DarkSlateGray;
             btnKhachhang.BackColor = Color.Firebrick;
-            btnNhanvien.BackColor = Color.DarkSlateGray;
-            btnReport.BackColor = Color.DarkSlateGray;
 
             openChildForm(new formCustomer());
         }
 
-        private void btnNhanvien_Click(object sender, EventArgs e)
-        {
-            btnTaikhoan.BackColor = Color.DarkSlateGray;
-            btnUser.BackColor = Color.DarkSlateGray;
-            btnBaidoxe.BackColor = Color.DarkSlateGray;
-            btnKhachhang.BackColor = Color.DarkSlateGray;
-            btnNhanvien.BackColor = Color.Firebrick;
-            btnReport.BackColor = Color.DarkSlateGray;
-
-            openChildForm(new formStaff());
-        }
-
-        private void btnReport_Click(object sender, EventArgs e)
-        {
-            btnTaikhoan.BackColor = Color.DarkSlateGray;
-            btnUser.BackColor = Color.DarkSlateGray;
-            btnBaidoxe.BackColor = Color.DarkSlateGray;
-            btnKhachhang.BackColor = Color.DarkSlateGray;
-            btnNhanvien.BackColor = Color.DarkSlateGray;
-            btnReport.BackColor = Color.Firebrick;
-
-            openChildForm(new formReport());
-        }
-
-        private void btnTaikhoan_Click(object sender, EventArgs e)
-        {
-            btnTaikhoan.BackColor = Color.Firebrick;
-            btnUser.BackColor = Color.DarkSlateGray;
-            btnBaidoxe.BackColor = Color.DarkSlateGray;
-            btnKhachhang.BackColor = Color.DarkSlateGray;
-            btnNhanvien.BackColor = Color.DarkSlateGray;
-            btnReport.BackColor = Color.DarkSlateGray;
-
-            openChildForm(new formAccount());
-        }
-
         private void btnUser_Click(object sender, EventArgs e)
         {
-            btnTaikhoan.BackColor = Color.DarkSlateGray;
             btnUser.BackColor = Color.Firebrick;
             btnBaidoxe.BackColor = Color.DarkSlateGray;
             btnKhachhang.BackColor = Color.DarkSlateGray;
-            btnNhanvien.BackColor = Color.DarkSlateGray;
-            btnReport.BackColor = Color.DarkSlateGray;
 
             formUser form = new formUser();
             form.ShowDialog();
@@ -141,8 +96,8 @@ namespace CarParkingManagementSystem
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            this.Hide();
             formLogin form = new formLogin();
+            this.Hide();
             form.ShowDialog();
         }
     }

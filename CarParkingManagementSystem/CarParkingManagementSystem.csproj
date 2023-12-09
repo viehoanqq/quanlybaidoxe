@@ -58,11 +58,35 @@
     <Compile Include="formAccountDetail.Designer.cs">
       <DependentUpon>formAccountDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="formAttendantMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAttendantMain.Designer.cs">
+      <DependentUpon>formAttendantMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCustomerMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCustomerMain.Designer.cs">
+      <DependentUpon>formCustomerMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="formCustomerDetail.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formCustomerDetail.Designer.cs">
       <DependentUpon>formCustomerDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formParkingInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formParkingInformation.Designer.cs">
+      <DependentUpon>formParkingInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formParkingLot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formParkingLot.Designer.cs">
+      <DependentUpon>formParkingLot.cs</DependentUpon>
     </Compile>
     <Compile Include="formParkingSpace.cs">
       <SubType>Form</SubType>
@@ -100,6 +124,12 @@
     <Compile Include="formParkingSpaceDetail.Designer.cs">
       <DependentUpon>formParkingSpaceDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="formPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPayment.Designer.cs">
+      <DependentUpon>formPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="formReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +154,12 @@
     <Compile Include="formUser.Designer.cs">
       <DependentUpon>formUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="parkingSpace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="parkingSpace.Designer.cs">
+      <DependentUpon>parkingSpace.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="formAccount.resx">
@@ -132,11 +168,23 @@
     <EmbeddedResource Include="formAccountDetail.resx">
       <DependentUpon>formAccountDetail.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formAttendantMain.resx">
+      <DependentUpon>formAttendantMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCustomerMain.resx">
+      <DependentUpon>formCustomerMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formCustomer.resx">
       <DependentUpon>formCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formCustomerDetail.resx">
       <DependentUpon>formCustomerDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formParkingInformation.resx">
+      <DependentUpon>formParkingInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formParkingLot.resx">
+      <DependentUpon>formParkingLot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formParkingSpace.resx">
       <DependentUpon>formParkingSpace.cs</DependentUpon>
@@ -153,6 +201,9 @@
     <EmbeddedResource Include="formParkingSpaceDetail.resx">
       <DependentUpon>formParkingSpaceDetail.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formPayment.resx">
+      <DependentUpon>formPayment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formReport.resx">
       <DependentUpon>formReport.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,20 +216,23 @@
     <EmbeddedResource Include="formUser.resx">
       <DependentUpon>formUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="parkingSpace.resx">
+      <DependentUpon>parkingSpace.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -289,6 +343,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
