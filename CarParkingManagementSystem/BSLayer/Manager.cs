@@ -357,6 +357,16 @@ namespace CarParkingManagementSystem.BSLayer
             return result > 0;
         }
 
+        public DataTable GetAllInfoDoXe()
+        {
+            DataTable dt = new DataTable();
+            // SELECT ttcn.ID, ttcn.ten, ttcn.ngayDoXe, ttcn.ngayLayXe, nx.IDDoXe, nx.IDNguoiDung, nx.IDNhanVien, nx.trangthai, nx.sotien FROM ThongTinCaNhan ttcn INNER JOIN NoiDoXe nx ON ttcn.ID = nx.IDNguoiDung;
+            SqlCommand cmd = new SqlCommand("SELECT ttcn.ID, ttcn.ten, ttcn.ngayDoXe, ttcn.ngayLayXe, nx.IDDoXe, nx.IDNguoiDung, nx.IDNhanVien, nx.trangthai, nx.sotien FROM ThongTinCaNhan ttcn INNER JOIN NoiDoXe nx ON ttcn.ID = nx.IDNguoiDung", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+
         static string GenerateRandomString(string prefix, int length)
         {
             const string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";

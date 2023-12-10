@@ -33,20 +33,16 @@
             this.txtFind = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnSave = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnReload = new System.Windows.Forms.Button();
-            this.btnFind = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.dtpDayStart = new System.Windows.Forms.DateTimePicker();
-            this.dtpDayEnd = new System.Windows.Forms.DateTimePicker();
             this.dtgReport = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.dtpDayEnd = new System.Windows.Forms.DateTimePicker();
+            this.dtpDayStart = new System.Windows.Forms.DateTimePicker();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgReport)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,10 +56,10 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnAdd.Location = new System.Drawing.Point(632, 0);
+            this.btnAdd.Location = new System.Drawing.Point(843, 15);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(0);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(35, 27);
+            this.btnAdd.Size = new System.Drawing.Size(47, 33);
             this.btnAdd.TabIndex = 19;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -72,10 +68,10 @@
             // 
             this.txtFind.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtFind.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFind.Location = new System.Drawing.Point(50, 0);
+            this.txtFind.Location = new System.Drawing.Point(68, 15);
             this.txtFind.Margin = new System.Windows.Forms.Padding(0);
             this.txtFind.Name = "txtFind";
-            this.txtFind.Size = new System.Drawing.Size(254, 27);
+            this.txtFind.Size = new System.Drawing.Size(337, 32);
             this.txtFind.TabIndex = 18;
             // 
             // label4
@@ -84,10 +80,10 @@
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(0, 5);
+            this.label4.Location = new System.Drawing.Point(0, 22);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 18);
+            this.label4.Size = new System.Drawing.Size(68, 25);
             this.label4.TabIndex = 17;
             this.label4.Text = "Find:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -99,15 +95,33 @@
             this.panel2.Controls.Add(this.btnEdit);
             this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.btnReload);
-            this.panel2.Controls.Add(this.btnFind);
             this.panel2.Controls.Add(this.txtFind);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(737, 34);
+            this.panel2.Size = new System.Drawing.Size(983, 73);
             this.panel2.TabIndex = 0;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSave.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
+            this.btnSave.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
+            this.btnSave.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSave.Image = global::CarParkingManagementSystem.Properties.Resources.save1;
+            this.btnSave.Location = new System.Drawing.Point(796, 15);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(47, 33);
+            this.btnSave.TabIndex = 20;
+            this.btnSave.Text = "+";
+            this.btnSave.UseVisualStyleBackColor = false;
             // 
             // btnEdit
             // 
@@ -120,10 +134,10 @@
             this.btnEdit.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnEdit.Image = global::CarParkingManagementSystem.Properties.Resources.edit__1_;
-            this.btnEdit.Location = new System.Drawing.Point(667, 0);
+            this.btnEdit.Location = new System.Drawing.Point(889, 15);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(0);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(35, 27);
+            this.btnEdit.Size = new System.Drawing.Size(47, 33);
             this.btnEdit.TabIndex = 19;
             this.btnEdit.UseVisualStyleBackColor = false;
             // 
@@ -138,10 +152,10 @@
             this.btnDelete.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnDelete.Image = global::CarParkingManagementSystem.Properties.Resources.delete__1_;
-            this.btnDelete.Location = new System.Drawing.Point(702, 0);
+            this.btnDelete.Location = new System.Drawing.Point(936, 15);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(0);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(35, 27);
+            this.btnDelete.Size = new System.Drawing.Size(47, 33);
             this.btnDelete.TabIndex = 19;
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
@@ -157,69 +171,22 @@
             this.btnReload.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReload.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnReload.Image = global::CarParkingManagementSystem.Properties.Resources.reload;
-            this.btnReload.Location = new System.Drawing.Point(345, 0);
+            this.btnReload.Location = new System.Drawing.Point(416, 15);
             this.btnReload.Margin = new System.Windows.Forms.Padding(0);
             this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(35, 27);
+            this.btnReload.Size = new System.Drawing.Size(47, 33);
             this.btnReload.TabIndex = 19;
             this.btnReload.UseVisualStyleBackColor = false;
-            // 
-            // btnFind
-            // 
-            this.btnFind.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnFind.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.btnFind.FlatAppearance.BorderSize = 0;
-            this.btnFind.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.btnFind.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
-            this.btnFind.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFind.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFind.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnFind.Image = global::CarParkingManagementSystem.Properties.Resources.find;
-            this.btnFind.Location = new System.Drawing.Point(307, 0);
-            this.btnFind.Margin = new System.Windows.Forms.Padding(0);
-            this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(35, 27);
-            this.btnFind.TabIndex = 19;
-            this.btnFind.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.dtgReport);
-            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(9, 20);
+            this.panel1.Location = new System.Drawing.Point(12, 25);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(737, 533);
+            this.panel1.Size = new System.Drawing.Size(983, 424);
             this.panel1.TabIndex = 20;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.dtpDayEnd);
-            this.panel3.Controls.Add(this.dtpDayStart);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 34);
-            this.panel3.Margin = new System.Windows.Forms.Padding(0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(737, 34);
-            this.panel3.TabIndex = 1;
-            // 
-            // dtpDayStart
-            // 
-            this.dtpDayStart.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpDayStart.Location = new System.Drawing.Point(213, 0);
-            this.dtpDayStart.Name = "dtpDayStart";
-            this.dtpDayStart.Size = new System.Drawing.Size(262, 20);
-            this.dtpDayStart.TabIndex = 0;
-            // 
-            // dtpDayEnd
-            // 
-            this.dtpDayEnd.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpDayEnd.Location = new System.Drawing.Point(475, 0);
-            this.dtpDayEnd.Name = "dtpDayEnd";
-            this.dtpDayEnd.Size = new System.Drawing.Size(262, 20);
-            this.dtpDayEnd.TabIndex = 0;
             // 
             // dtgReport
             // 
@@ -234,53 +201,49 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dtgReport.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgReport.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1});
             this.dtgReport.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgReport.Location = new System.Drawing.Point(0, 68);
+            this.dtgReport.Location = new System.Drawing.Point(0, 73);
             this.dtgReport.Margin = new System.Windows.Forms.Padding(0);
             this.dtgReport.Name = "dtgReport";
-            this.dtgReport.Size = new System.Drawing.Size(737, 465);
+            this.dtgReport.RowHeadersWidth = 51;
+            this.dtgReport.Size = new System.Drawing.Size(983, 351);
             this.dtgReport.TabIndex = 2;
             // 
-            // Column1
+            // dtpDayEnd
             // 
-            this.Column1.HeaderText = "ID";
-            this.Column1.Name = "Column1";
+            this.dtpDayEnd.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpDayEnd.Location = new System.Drawing.Point(627, 486);
+            this.dtpDayEnd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpDayEnd.Name = "dtpDayEnd";
+            this.dtpDayEnd.Size = new System.Drawing.Size(348, 24);
+            this.dtpDayEnd.TabIndex = 0;
             // 
-            // btnSave
+            // dtpDayStart
             // 
-            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnSave.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
-            this.btnSave.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
-            this.btnSave.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
-            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSave.Image = global::CarParkingManagementSystem.Properties.Resources.save1;
-            this.btnSave.Location = new System.Drawing.Point(597, 0);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(0);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(35, 27);
-            this.btnSave.TabIndex = 20;
-            this.btnSave.Text = "+";
-            this.btnSave.UseVisualStyleBackColor = false;
+            this.dtpDayStart.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpDayStart.Location = new System.Drawing.Point(251, 486);
+            this.dtpDayStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpDayStart.Name = "dtpDayStart";
+            this.dtpDayStart.Size = new System.Drawing.Size(348, 24);
+            this.dtpDayStart.TabIndex = 0;
             // 
             // formReport
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(756, 614);
+            this.ClientSize = new System.Drawing.Size(1008, 756);
+            this.Controls.Add(this.dtpDayEnd);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.dtpDayStart);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "formReport";
             this.Text = "formReport";
+            this.Load += new System.EventHandler(this.formReport_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgReport)).EndInit();
             this.ResumeLayout(false);
 
@@ -295,13 +258,10 @@
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnReload;
-        private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DateTimePicker dtpDayEnd;
         private System.Windows.Forms.DateTimePicker dtpDayStart;
         private System.Windows.Forms.DataGridView dtgReport;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.Button btnSave;
     }
 }
