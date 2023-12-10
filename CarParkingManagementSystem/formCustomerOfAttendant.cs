@@ -73,7 +73,7 @@ namespace CarParkingManagementSystem
         {
             try
             {
-                StreamWriter sw = new StreamWriter(@"F:\Khachhang_" + IDNV + ".txt");
+                StreamWriter sw = new StreamWriter(@"D:\SPKT\NamBa\OOPR230279_23_1_12\Tuan16\Folder\Khachhang_" + IDNV + ".txt");
                 sw.WriteLine("                                                    Danh sách khách hàng                                                           ");
                 sw.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------");
 

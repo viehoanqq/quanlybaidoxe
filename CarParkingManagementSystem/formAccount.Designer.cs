@@ -145,6 +145,7 @@
             this.btnSave.TabIndex = 21;
             this.btnSave.Text = "+";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnEdit
             // 
@@ -241,7 +242,7 @@
             this.ClientSize = new System.Drawing.Size(1008, 756);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "formAccount";
             this.Text = "formAccount";
             this.Load += new System.EventHandler(this.formAccount_Load);

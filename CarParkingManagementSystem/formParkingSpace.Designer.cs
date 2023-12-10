@@ -159,6 +159,7 @@
             this.btnPrint.TabIndex = 21;
             this.btnPrint.Text = "+";
             this.btnPrint.UseVisualStyleBackColor = false;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // btnAdd
             // 

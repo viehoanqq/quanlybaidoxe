@@ -60,7 +60,7 @@ namespace CarParkingManagementSystem
             try
             {
                 DataTable dt = attendant.ThongtinDoxe(this.txtIDKhachhang.Text);
-                StreamWriter sw = new StreamWriter(@"F:\Vexe" + IDSpace + ".txt");
+                StreamWriter sw = new StreamWriter(@"D:\SPKT\NamBa\OOPR230279_23_1_12\Tuan16\Folder\Vexe" + IDSpace + ".txt");
 
                 sw.WriteLine("-------------Vé gửi xe-----------");
                 sw.WriteLine("ID khách hàng: " + dt.Rows[0]["ID"].ToString());

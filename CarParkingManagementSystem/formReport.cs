@@ -139,10 +139,5 @@ namespace CarParkingManagementSystem
                 }
             }
         }
-
-        private void btn_Xuat_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CarParkingManagementSystem.DBLayer;
 using CarParkingManagementSystem.BSLayer;
+using System.IO;
 
 namespace CarParkingManagementSystem
 {
@@ -100,6 +101,33 @@ namespace CarParkingManagementSystem
         private void btnReload_Click(object sender, EventArgs e)
         {
             LoadData();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                StreamWriter sw = new StreamWriter(@"D:\SPKT\NamBa\OOPR230279_23_1_12\Tuan16\Folder\NhanVien.txt");
+                sw.WriteLine("                                                    Danh sách Nhân Viên                                                          ");
+                sw.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------");
+
+                for (int i = 0; i < dtgChitietCanhan.Rows.Count - 1; i++)
+                {
+                    for (int j = 0; j < dtgChitietCanhan.Columns.Count; j++)
+                    {
+                        sw.Write(" " + dtgChitietCanhan.Rows[i].Cells[j].Value.ToString() + " " + "|");
+                    }
+                    sw.WriteLine("");
+                    sw.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------");
+                }
+                sw.Close();
+
+                MessageBox.Show("Đã in danh sách!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("In thất bại!\n" + ex.Message);
+            }
         }
     }
 }
