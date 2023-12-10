@@ -74,8 +74,14 @@ namespace CarParkingManagementSystem
 
         private void btnRetrieve_Click(object sender, EventArgs e)
         {
-            formPayment form = new formPayment(IDKH);
-            form.ShowDialog();
+            formInputTicket form = new formInputTicket(IDKH, 0);
+            form.Show();
+        }
+
+        private void btnReload_Click(object sender, EventArgs e)
+        {
+            LoadData();
+            parkingLot();
         }
     }
 }

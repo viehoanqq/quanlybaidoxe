@@ -93,6 +93,12 @@
     <Compile Include="formCustomerOfAttendant.Designer.cs">
       <DependentUpon>formCustomerOfAttendant.cs</DependentUpon>
     </Compile>
+    <Compile Include="formInputTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formInputTicket.Designer.cs">
+      <DependentUpon>formInputTicket.cs</DependentUpon>
+    </Compile>
     <Compile Include="formParkCarAttendant.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -226,6 +232,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formCustomerOfAttendant.resx">
       <DependentUpon>formCustomerOfAttendant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formInputTicket.resx">
+      <DependentUpon>formInputTicket.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formParkCarAttendant.resx">
       <DependentUpon>formParkCarAttendant.cs</DependentUpon>

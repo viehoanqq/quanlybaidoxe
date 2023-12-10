@@ -66,6 +66,7 @@ namespace CarParkingManagementSystem
 
             formRetrieveCarAttendant form = new formRetrieveCarAttendant(id);
             form.Show();
+            LoadData();
         }
 
         private void btnSave_Click(object sender, EventArgs e)

@@ -96,6 +96,15 @@ namespace CarParkingManagementSystem.BSLayer
             return dt;
         }
 
+        public DataTable ThongtinVexe(string IDKH)
+        {
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand("select ID, ten, bienSo, ngayDoXe, ngayLayXe, DX.sotien from ThongTinCaNhan CN inner join NoiDoXe DX on CN.ID = DX.IDNguoiDung where CN.ID = '" + IDKH + "'", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+
         public object ViTriDoXe(string ID)
         {
             object dt;

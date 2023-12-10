@@ -72,9 +72,9 @@ namespace CarParkingManagementSystem
 
         private void btnRetrieve_Click(object sender, EventArgs e)
         {
-            attendant.LayXe(attendant.ViTriDoXe(IDKH).ToString());
-            MessageBox.Show("Lấy xe thành công!");
+            formInputTicket form = new formInputTicket(IDKH, 1);
             this.Close();
+            form.Show();            
         }
 
         private void btnExit_Click(object sender, EventArgs e)

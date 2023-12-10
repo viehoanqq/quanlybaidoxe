@@ -90,5 +90,10 @@ namespace CarParkingManagementSystem
         private void txtFind_KeyUp(object sender, KeyEventArgs e)
         {
         }
+
+        private void btn_Xuat_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

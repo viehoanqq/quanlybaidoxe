@@ -21,7 +21,8 @@ namespace CarParkingManagementSystem
             InitializeComponent();
             IDKH = id;
         }
-        private void formPayment_Load(object sender, EventArgs e)
+
+        public void LoadData()
         {
             DataTable dt = customer.ThongtinDoxe(IDKH);
             this.txtID.Text = dt.Rows[0]["ID"].ToString();
@@ -30,6 +31,11 @@ namespace CarParkingManagementSystem
             this.txtNgaydoxe.Text = dt.Rows[0]["ngayDoXe"].ToString();
             this.txtNgaylayxe.Text = dt.Rows[0]["ngayLayXe"].ToString();
             this.txtPhidoxe.Text = dt.Rows[0]["sotien"].ToString();
+        }
+
+        private void formPayment_Load(object sender, EventArgs e)
+        {
+            LoadData();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -82,6 +88,7 @@ namespace CarParkingManagementSystem
         {
             customer.LayXe(customer.ViTriDoXe(IDKH).ToString());
             MessageBox.Show("Thanh toán thành công!");
+            MessageBox.Show("Lấy xe thành công!");
             this.Close();
         }
     }

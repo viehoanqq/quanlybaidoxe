@@ -58,6 +58,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnReload = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.layoutPnl.SuspendLayout();
@@ -439,6 +440,7 @@
             // 
             this.panel6.Controls.Add(this.label1);
             this.panel6.Controls.Add(this.panel4);
+            this.panel6.Controls.Add(this.btnReload);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(33, 0);
             this.panel6.Margin = new System.Windows.Forms.Padding(0);
@@ -479,6 +481,26 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(33, 405);
             this.panel3.TabIndex = 0;
+            // 
+            // btnReload
+            // 
+            this.btnReload.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnReload.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnReload.FlatAppearance.BorderSize = 0;
+            this.btnReload.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.btnReload.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.btnReload.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnReload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReload.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReload.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnReload.Image = global::CarParkingManagementSystem.Properties.Resources.reload;
+            this.btnReload.Location = new System.Drawing.Point(418, 0);
+            this.btnReload.Margin = new System.Windows.Forms.Padding(0);
+            this.btnReload.Name = "btnReload";
+            this.btnReload.Size = new System.Drawing.Size(35, 27);
+            this.btnReload.TabIndex = 20;
+            this.btnReload.UseVisualStyleBackColor = false;
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
             // formParkingInformation
             // 
@@ -538,5 +560,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btnReload;
     }
 }
