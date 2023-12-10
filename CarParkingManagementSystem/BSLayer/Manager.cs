@@ -331,6 +331,15 @@ namespace CarParkingManagementSystem.BSLayer
             return result > 0;
         }
 
+        public DataTable GetAllAdminInfo()
+        {
+            DataTable dt = new DataTable();
+            // SELECT ttcn.ID, ttcn.ten, ttcn.tuoi, ttcn.diachi, ttcn.sdt FROM ThongTinCaNhan ttcn JOIN TaiKhoan tk ON ttcn.ID = tk.ID WHERE tk.vaiTro = 'quanli'
+            SqlCommand cmd = new SqlCommand("SELECT ttcn.ID, ttcn.ten, ttcn.tuoi, ttcn.diachi, ttcn.sdt FROM ThongTinCaNhan ttcn JOIN TaiKhoan tk ON ttcn.ID = tk.ID WHERE tk.vaiTro = 'quanli'", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
 
         static string GenerateRandomString(string prefix, int length)
         {
