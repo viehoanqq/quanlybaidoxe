@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 namespace CarParkingManagementSystem
@@ -56,6 +57,27 @@ namespace CarParkingManagementSystem
         {
             attendant.DoXe(IDSpace, this.txtIDKhachhang.Text, "chuatra");
             MessageBox.Show("Đỗ xe thành công!");
+            try
+            {
+                DataTable dt = attendant.ThongtinDoxe(this.txtIDKhachhang.Text);
+                StreamWriter sw = new StreamWriter(@"F:\Vexe" + IDSpace + ".txt");
+
+                sw.WriteLine("-------------Vé gửi xe-----------");
+                sw.WriteLine("ID khách hàng: " + dt.Rows[0]["ID"].ToString());
+                sw.WriteLine("Tên khách hàng: " + dt.Rows[0]["ten"].ToString());
+                sw.WriteLine("Vị trí đỗ xe: " + IDSpace);
+                sw.WriteLine("Biển số xe: " + dt.Rows[0]["bienSo"].ToString());
+                sw.WriteLine("Ngày đỗ xe: " + dt.Rows[0]["ngayDoXe"].ToString());
+                sw.WriteLine("Ngày lấy xe: " + dt.Rows[0]["ngayLayXe"].ToString());
+                sw.WriteLine("Phí đỗ xe: " + dt.Rows[0]["sotien"].ToString() + "đ");
+                sw.WriteLine("---------------------------------");                
+                sw.Close();
+                MessageBox.Show("Đã in vé!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("In vé thất bại!\n" + ex.Message);
+            }
             this.Close();
         }
 

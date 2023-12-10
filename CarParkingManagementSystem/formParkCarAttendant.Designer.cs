@@ -101,7 +101,7 @@
             this.btnParkcar.Name = "btnParkcar";
             this.btnParkcar.Size = new System.Drawing.Size(259, 36);
             this.btnParkcar.TabIndex = 12;
-            this.btnParkcar.Text = "Đỗ xe";
+            this.btnParkcar.Text = "Xuất vé";
             this.btnParkcar.UseVisualStyleBackColor = false;
             this.btnParkcar.Click += new System.EventHandler(this.btnParkcar_Click);
             // 
