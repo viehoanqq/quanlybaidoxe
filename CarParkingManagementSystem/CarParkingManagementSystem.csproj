@@ -69,6 +69,12 @@
     <Compile Include="formAttendantMain.Designer.cs">
       <DependentUpon>formAttendantMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="formChangePassAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formChangePassAdmin.Designer.cs">
+      <DependentUpon>formChangePassAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="formCustomerMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,6 +205,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formAttendantMain.resx">
       <DependentUpon>formAttendantMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formChangePassAdmin.resx">
+      <DependentUpon>formChangePassAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formCustomerMain.resx">
       <DependentUpon>formCustomerMain.cs</DependentUpon>

@@ -332,6 +332,41 @@ namespace CarParkingManagementSystem.BSLayer
             return result > 0;
         }
 
+        public DataTable GetAllAdminInfo()
+        {
+            DataTable dt = new DataTable();
+            // SELECT ttcn.ID, ttcn.ten, ttcn.tuoi, ttcn.diachi, ttcn.sdt FROM ThongTinCaNhan ttcn JOIN TaiKhoan tk ON ttcn.ID = tk.ID WHERE tk.vaiTro = 'quanli'
+            SqlCommand cmd = new SqlCommand("SELECT ttcn.ID, ttcn.ten, ttcn.tuoi, ttcn.diachi, ttcn.sdt FROM ThongTinCaNhan ttcn JOIN TaiKhoan tk ON ttcn.ID = tk.ID WHERE tk.vaiTro = 'quanli'", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+        public bool SuaAdminInfo(string ID, string ten, string tuoi, string sdt, string diachi)
+        {
+            string sql = string.Format("update ThongTinCaNhan set ten = '{0}', tuoi = '{1}', sdt = '{2}', diachi = '{3}' where ID = '{4}'", ten, tuoi, sdt, diachi, ID);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
+        public bool DoiMatKau(string ID, string oldpassword, string newpassword)
+        {
+            string sql = string.Format("update TaiKhoan set password = '{0}' where ID = '{1}' and password = '{2}'", newpassword, ID, oldpassword);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
+
+        public DataTable GetAllInfoDoXe()
+        {
+            DataTable dt = new DataTable();
+            // SELECT ttcn.ID, ttcn.ten, ttcn.ngayDoXe, ttcn.ngayLayXe, nx.IDDoXe, nx.IDNguoiDung, nx.IDNhanVien, nx.trangthai, nx.sotien FROM ThongTinCaNhan ttcn INNER JOIN NoiDoXe nx ON ttcn.ID = nx.IDNguoiDung;
+            SqlCommand cmd = new SqlCommand("SELECT ttcn.ID, ttcn.ten, ttcn.ngayDoXe, ttcn.ngayLayXe, nx.IDDoXe, nx.IDNguoiDung, nx.IDNhanVien, nx.trangthai, nx.sotien FROM ThongTinCaNhan ttcn INNER JOIN NoiDoXe nx ON ttcn.ID = nx.IDNguoiDung", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
 
         static string GenerateRandomString(string prefix, int length)
         {
