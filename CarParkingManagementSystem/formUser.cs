@@ -35,6 +35,8 @@ namespace CarParkingManagementSystem
                 this.txtAge.Enabled = false;
                 this.txtAddress.Enabled = false;
                 this.txtSDT.Enabled = false;
+                this.btnDoiMK.Hide();
+
             }
             catch (Exception)
             {
