@@ -340,6 +340,22 @@ namespace CarParkingManagementSystem.BSLayer
             adapter.Fill(dt);
             return dt;
         }
+        public bool SuaAdminInfo(string ID, string ten, string tuoi, string sdt, string diachi)
+        {
+            string sql = string.Format("update ThongTinCaNhan set ten = '{0}', tuoi = '{1}', sdt = '{2}', diachi = '{3}' where ID = '{4}'", ten, tuoi, sdt, diachi, ID);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
+        public bool DoiMatKau(string ID, string oldpassword, string newpassword)
+        {
+            string sql = string.Format("update TaiKhoan set password = '{0}' where ID = '{1}' and password = '{2}'", newpassword, ID, oldpassword);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
 
         static string GenerateRandomString(string prefix, int length)
         {
