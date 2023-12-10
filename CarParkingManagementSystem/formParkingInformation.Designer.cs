@@ -472,7 +472,7 @@
             this.parked.BackColor = System.Drawing.Color.White;
             this.parked.Icon = null;
             this.parked.IconBg = System.Drawing.Color.Empty;
-            this.parked.IDKH = null;
+            this.parked.IDUser = null;
             this.parked.IDSpace = null;
             this.parked.Location = new System.Drawing.Point(0, 0);
             this.parked.Margin = new System.Windows.Forms.Padding(0);

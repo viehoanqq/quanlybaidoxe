@@ -62,6 +62,13 @@ namespace CarParkingManagementSystem
                     formCustomerMain form = new formCustomerMain(id);
                     form.Show();
                 }
+                else if (dt.ToString() == "nhanvien")
+                {
+                    string id = taikhoan.ID(txtUsername.Text, txtPassword.Text).ToString().Trim();
+                    this.Hide();
+                    formAttendantMain form = new formAttendantMain(id);
+                    form.Show();
+                }
                 else
                 {
                     MessageBox.Show("Thông tin đăng nhập không chính xác. Mời nhập lại!", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);

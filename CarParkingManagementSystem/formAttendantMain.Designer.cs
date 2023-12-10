@@ -39,7 +39,6 @@
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.pnlMain = new System.Windows.Forms.Panel();
             this.btnBaidoxe = new System.Windows.Forms.Button();
-            this.btnKhachhang = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -52,6 +51,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnKhachhang = new System.Windows.Forms.Button();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -222,28 +222,6 @@
             this.btnBaidoxe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBaidoxe.UseVisualStyleBackColor = true;
             this.btnBaidoxe.Click += new System.EventHandler(this.btnBaidoxe_Click);
-            // 
-            // btnKhachhang
-            // 
-            this.tableLayoutPanel2.SetColumnSpan(this.btnKhachhang, 2);
-            this.btnKhachhang.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnKhachhang.FlatAppearance.BorderSize = 0;
-            this.btnKhachhang.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Firebrick;
-            this.btnKhachhang.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.btnKhachhang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKhachhang.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKhachhang.ForeColor = System.Drawing.Color.White;
-            this.btnKhachhang.Image = global::CarParkingManagementSystem.Properties.Resources.multiple_users_silhouette;
-            this.btnKhachhang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKhachhang.Location = new System.Drawing.Point(0, 204);
-            this.btnKhachhang.Margin = new System.Windows.Forms.Padding(0);
-            this.btnKhachhang.Name = "btnKhachhang";
-            this.btnKhachhang.Size = new System.Drawing.Size(240, 44);
-            this.btnKhachhang.TabIndex = 2;
-            this.btnKhachhang.Text = "         Khách hàng";
-            this.btnKhachhang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKhachhang.UseVisualStyleBackColor = true;
-            this.btnKhachhang.Click += new System.EventHandler(this.btnKhachhang_Click);
             // 
             // pictureBox1
             // 
@@ -444,6 +422,28 @@
             this.panel1.Size = new System.Drawing.Size(1011, 650);
             this.panel1.TabIndex = 1;
             // 
+            // btnKhachhang
+            // 
+            this.tableLayoutPanel2.SetColumnSpan(this.btnKhachhang, 2);
+            this.btnKhachhang.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnKhachhang.FlatAppearance.BorderSize = 0;
+            this.btnKhachhang.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Firebrick;
+            this.btnKhachhang.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.btnKhachhang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKhachhang.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKhachhang.ForeColor = System.Drawing.Color.White;
+            this.btnKhachhang.Image = global::CarParkingManagementSystem.Properties.Resources.multiple_users_silhouette;
+            this.btnKhachhang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKhachhang.Location = new System.Drawing.Point(0, 204);
+            this.btnKhachhang.Margin = new System.Windows.Forms.Padding(0);
+            this.btnKhachhang.Name = "btnKhachhang";
+            this.btnKhachhang.Size = new System.Drawing.Size(240, 44);
+            this.btnKhachhang.TabIndex = 2;
+            this.btnKhachhang.Text = "         Khách hàng";
+            this.btnKhachhang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKhachhang.UseVisualStyleBackColor = true;
+            this.btnKhachhang.Click += new System.EventHandler(this.btnKhachhang_Click);
+            // 
             // formAttendantMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -495,10 +495,10 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Button btnUser;
         private System.Windows.Forms.Button btnLogout;
-        private System.Windows.Forms.Button btnKhachhang;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnKhachhang;
     }
 }

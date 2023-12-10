@@ -17,11 +17,13 @@ namespace CarParkingManagementSystem
     {
         Customer customer = new Customer();
         public string ID;
+        public int flag;
 
-        public formParkingLot(string id)
+        public formParkingLot(string _id, int _flag)
         {
             InitializeComponent();
-            ID = id;
+            ID = _id;
+            flag = _flag;
         }
 
         private void formParkingLot_Load(object sender, EventArgs e)
@@ -43,7 +45,8 @@ namespace CarParkingManagementSystem
                     parkingSpaces[i] = new parkingSpace();
                     parkingSpaces[i].IDSpace = dt.Rows[i]["IDDoXe"].ToString().Trim();
                     parkingSpaces[i].IconBg = Color.White;
-                    parkingSpaces[i].IDKH = ID;
+                    parkingSpaces[i].IDUser = ID;
+                    parkingSpaces[i].Flag = flag;
                 }
                 else
                 {
@@ -51,7 +54,8 @@ namespace CarParkingManagementSystem
                     parkingSpaces[i].IDSpace = dt.Rows[i]["IDDoXe"].ToString().Trim();
                     parkingSpaces[i].Icon = Resources.car;
                     parkingSpaces[i].IconBg = Color.LightGray;
-                    parkingSpaces[i].IDKH = ID;
+                    parkingSpaces[i].IDUser = ID;
+                    parkingSpaces[i].Flag = flag;
                 }
 
                 if (layoutPnl.Controls.Count < 0)
@@ -59,6 +63,12 @@ namespace CarParkingManagementSystem
                 else
                     layoutPnl.Controls.Add(parkingSpaces[i]);
             }
+        }
+
+        private void btnReload_Click(object sender, EventArgs e)
+        {
+            layoutPnl.Controls.Clear();
+            parkingLot();
         }
     }
 }

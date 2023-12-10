@@ -85,7 +85,7 @@ namespace CarParkingManagementSystem
             btnBaidoxe.BackColor = Color.Firebrick;
             btnThongtindoxe.BackColor = Color.DarkSlateGray;
 
-            openChildForm(new formParkingLot(ID));
+            openChildForm(new formParkingLot(ID, 0));
         }
 
         private void btnThongtindoxe_Click(object sender, EventArgs e)

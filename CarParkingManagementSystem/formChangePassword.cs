@@ -96,8 +96,7 @@ namespace CarParkingManagementSystem
                 this.txtOldPwd.UseSystemPasswordChar = true;
                 this.txtNewPwd.UseSystemPasswordChar = true;
                 this.txtReenterPwd.UseSystemPasswordChar = true;
-            } 
-                
+            }                 
         }
     }
 }

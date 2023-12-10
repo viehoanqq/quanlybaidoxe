@@ -22,16 +22,24 @@ namespace CarParkingManagementSystem
             InitializeComponent();
         }
 
-        private string _idKH;
+        private int _flag;
+        private string _idUser;
         private string _idSpace;
         private Image _icon;
         private Color _iconBg;
 
         [Category("Parking Space Props")]
-        public string IDKH
+        public int Flag
         {
-            get { return _idKH; }
-            set { _idKH = value; }
+            get { return _flag; }
+            set { _flag = value; }
+        }
+
+        [Category("Parking Space Props")]
+        public string IDUser
+        {
+            get { return _idUser; }
+            set { _idUser = value; }
         }
 
         [Category("Parking Space Props")]
@@ -67,21 +75,45 @@ namespace CarParkingManagementSystem
 
         private void parkingSpace_Click(object sender, EventArgs e)
         {
-            if (_iconBg == Color.LightGray)
+            if (Flag == 0)
             {
-                MessageBox.Show("Vị trí này đã có xe khác đỗ!", "", MessageBoxButtons.OK, MessageBoxIcon.Hand);
-            }
-            else if (_iconBg == Color.White) 
-            {
-                DialogResult ans = MessageBox.Show("Đỗ xe ở vị trí này?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (ans == DialogResult.Yes)
+                if (_iconBg == Color.LightGray)
                 {
-                    customer.DoXe(IDSpace, IDKH, "chuatra");
-                    MessageBox.Show("Đỗ xe thành công!");
-                    IconBg = Color.LightGray;
-                    Icon = Resources.car;
+                    MessageBox.Show("Vị trí này đã có xe khác đỗ!", "", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                 }
-            }    
+                else if (_iconBg == Color.White)
+                {
+                    DialogResult ans = MessageBox.Show("Đỗ xe ở vị trí này?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (ans == DialogResult.Yes)
+                    {
+                        customer.DoXe(IDSpace, IDUser, "chuatra");
+                        MessageBox.Show("Đỗ xe thành công!");
+                        IconBg = Color.LightGray;
+                        Icon = Resources.car;
+                    }
+                }
+            }
+
+            if (Flag == 1)
+            {
+                if (_iconBg == Color.LightGray)
+                {
+                    MessageBox.Show("Vị trí này đã có xe khác đỗ!", "", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                }
+                else if (_iconBg == Color.White)
+                {
+                    DialogResult ans = MessageBox.Show("Đỗ xe ở vị trí này?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (ans == DialogResult.Yes)
+                    {
+                        formParkCarAttendant form = new formParkCarAttendant();
+                        form.IDSpace = IDSpace;
+                        form.IDNV = IDUser;
+                        form.Show();
+                        IconBg = Color.LightGray;
+                        Icon = Resources.car;
+                    }
+                }
+            }
         }
     }
 }

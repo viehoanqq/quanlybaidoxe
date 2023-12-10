@@ -7,14 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CarParkingManagementSystem.DBLayer;
+using CarParkingManagementSystem.BSLayer;
 
 namespace CarParkingManagementSystem
 {
     public partial class formAttendantMain : Form
     {
-        public formAttendantMain()
+        Attendant attendant = new Attendant();
+        public string ID;
+
+        public formAttendantMain(string id)
         {
             InitializeComponent();
+            ID = id;
         }
 
         public void openChildForm(Form childForm)
@@ -26,6 +32,11 @@ namespace CarParkingManagementSystem
             pnlMain.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
+        }
+
+        public void LoadData()
+        {
+            btnUser.Text = "           " + attendant.GetNameCustomer(ID).ToString();
         }
 
         private void formAttendantMain_Load(object sender, EventArgs e)
@@ -40,6 +51,8 @@ namespace CarParkingManagementSystem
                 this.btnRestoreDown.Visible = false;
                 this.btnMaximize.Visible = true;
             }
+
+            LoadData();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -72,7 +85,7 @@ namespace CarParkingManagementSystem
             btnBaidoxe.BackColor = Color.Firebrick;
             btnKhachhang.BackColor = Color.DarkSlateGray;
 
-            //openChildForm(new formParkingLot());
+            openChildForm(new formParkingLot(ID, 1));
         }
 
         private void btnKhachhang_Click(object sender, EventArgs e)
@@ -81,7 +94,7 @@ namespace CarParkingManagementSystem
             btnBaidoxe.BackColor = Color.DarkSlateGray;
             btnKhachhang.BackColor = Color.Firebrick;
 
-            openChildForm(new formCustomer());
+            openChildForm(new formCustomerOfAttendant(ID));
         }
 
         private void btnUser_Click(object sender, EventArgs e)
@@ -90,7 +103,7 @@ namespace CarParkingManagementSystem
             btnBaidoxe.BackColor = Color.DarkSlateGray;
             btnKhachhang.BackColor = Color.DarkSlateGray;
 
-            formUser form = new formUser();
+            formUserAttendant form = new formUserAttendant(ID);
             form.ShowDialog();
         }
 

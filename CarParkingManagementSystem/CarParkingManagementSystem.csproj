@@ -81,6 +81,18 @@
     <Compile Include="formCustomerDetail.Designer.cs">
       <DependentUpon>formCustomerDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="formCustomerOfAttendant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCustomerOfAttendant.Designer.cs">
+      <DependentUpon>formCustomerOfAttendant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formParkCarAttendant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formParkCarAttendant.Designer.cs">
+      <DependentUpon>formParkCarAttendant.cs</DependentUpon>
+    </Compile>
     <Compile Include="formParkingInformation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +171,12 @@
     <Compile Include="formUser.Designer.cs">
       <DependentUpon>formUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="formUserAttendant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserAttendant.Designer.cs">
+      <DependentUpon>formUserAttendant.cs</DependentUpon>
+    </Compile>
     <Compile Include="formUserCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +208,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formCustomerDetail.resx">
       <DependentUpon>formCustomerDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCustomerOfAttendant.resx">
+      <DependentUpon>formCustomerOfAttendant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formParkCarAttendant.resx">
+      <DependentUpon>formParkCarAttendant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formParkingInformation.resx">
       <DependentUpon>formParkingInformation.cs</DependentUpon>
@@ -226,6 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formUser.resx">
       <DependentUpon>formUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserAttendant.resx">
+      <DependentUpon>formUserAttendant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formUserCustomer.resx">
       <DependentUpon>formUserCustomer.cs</DependentUpon>

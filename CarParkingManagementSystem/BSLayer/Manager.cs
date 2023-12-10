@@ -128,6 +128,7 @@ namespace CarParkingManagementSystem.BSLayer
             adapter.Fill(dt);
             return dt;
         }
+
         public bool ThemThongTinCaNhan(string ID, string ten, string tuoi, string sdt, string diachi, string bienSo, string ngayDoXe, string ngayLayXe, string sotien)
         {
             string username = GenerateRandomString("username_", 1);

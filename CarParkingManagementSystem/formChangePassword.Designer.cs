@@ -39,9 +39,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cboxShowPass = new System.Windows.Forms.CheckBox();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.cboxShowPass = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -195,6 +195,18 @@
             this.panel2.Size = new System.Drawing.Size(546, 36);
             this.panel2.TabIndex = 0;
             // 
+            // cboxShowPass
+            // 
+            this.cboxShowPass.AutoSize = true;
+            this.cboxShowPass.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboxShowPass.Location = new System.Drawing.Point(392, 245);
+            this.cboxShowPass.Name = "cboxShowPass";
+            this.cboxShowPass.Size = new System.Drawing.Size(120, 21);
+            this.cboxShowPass.TabIndex = 17;
+            this.cboxShowPass.Text = "Hiện mật khẩu";
+            this.cboxShowPass.UseVisualStyleBackColor = true;
+            this.cboxShowPass.CheckedChanged += new System.EventHandler(this.cboxShowPass_CheckedChanged);
+            // 
             // btnMinimize
             // 
             this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
@@ -227,18 +239,6 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // cboxShowPass
-            // 
-            this.cboxShowPass.AutoSize = true;
-            this.cboxShowPass.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboxShowPass.Location = new System.Drawing.Point(392, 245);
-            this.cboxShowPass.Name = "cboxShowPass";
-            this.cboxShowPass.Size = new System.Drawing.Size(120, 21);
-            this.cboxShowPass.TabIndex = 17;
-            this.cboxShowPass.Text = "Hiện mật khẩu";
-            this.cboxShowPass.UseVisualStyleBackColor = true;
-            this.cboxShowPass.CheckedChanged += new System.EventHandler(this.cboxShowPass_CheckedChanged);
-            // 
             // formChangePassword
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -247,7 +247,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formChangePassword";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formChangePassword";
             this.Load += new System.EventHandler(this.formChangePassword_Load);
             this.panel1.ResumeLayout(false);
