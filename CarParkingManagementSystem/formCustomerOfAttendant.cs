@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -65,6 +66,33 @@ namespace CarParkingManagementSystem
 
             formRetrieveCarAttendant form = new formRetrieveCarAttendant(id);
             form.Show();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                StreamWriter sw = new StreamWriter(@"F:\Khachhang_" + IDNV + ".txt");
+                sw.WriteLine("                                                    Danh sách khách hàng                                                           ");
+                sw.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------");
+
+                for (int i = 0; i < dtgChitietCanhan.Rows.Count - 1; i++)
+                {
+                    for (int j = 0; j < dtgChitietCanhan.Columns.Count; j++)
+                    {
+                        sw.Write(" " + dtgChitietCanhan.Rows[i].Cells[j].Value.ToString() + " " + "|");
+                    }
+                    sw.WriteLine("");
+                    sw.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------");
+                }
+                sw.Close();
+
+                MessageBox.Show("Đã in danh sách!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("In thất bại!\n" + ex.Message);
+            }
         }
     }
 }

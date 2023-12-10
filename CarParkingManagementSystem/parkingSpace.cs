@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CarParkingManagementSystem.DBLayer;
 using CarParkingManagementSystem.BSLayer;
+using System.IO;
 
 namespace CarParkingManagementSystem
 {
@@ -90,6 +91,28 @@ namespace CarParkingManagementSystem
                         MessageBox.Show("Đỗ xe thành công!");
                         IconBg = Color.LightGray;
                         Icon = Resources.car;
+
+                        try
+                        {
+                            DataTable dt = customer.ThongtinDoxe(IDUser);
+                            StreamWriter sw = new StreamWriter(@"F:\Vexe" + IDSpace + ".txt");
+
+                            sw.WriteLine("-------------Vé gửi xe-----------");
+                            sw.WriteLine("ID khách hàng: " + dt.Rows[0]["ID"].ToString());
+                            sw.WriteLine("Tên khách hàng: " + dt.Rows[0]["ten"].ToString());
+                            sw.WriteLine("Vị trí đỗ xe: " + IDSpace);
+                            sw.WriteLine("Biển số xe: " + dt.Rows[0]["bienSo"].ToString());
+                            sw.WriteLine("Ngày đỗ xe: " + dt.Rows[0]["ngayDoXe"].ToString());
+                            sw.WriteLine("Ngày lấy xe: " + dt.Rows[0]["ngayLayXe"].ToString());
+                            sw.WriteLine("Phí đỗ xe: " + dt.Rows[0]["sotien"].ToString() + "đ");
+                            sw.WriteLine("---------------------------------");
+                            sw.Close();
+                            MessageBox.Show("Đã in vé!");
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("In vé thất bại!\n" + ex.Message);
+                        }
                     }
                 }
             }
