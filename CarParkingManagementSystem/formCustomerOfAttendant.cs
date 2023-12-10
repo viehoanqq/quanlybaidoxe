@@ -73,7 +73,8 @@ namespace CarParkingManagementSystem
             try
             {
                 StreamWriter sw = new StreamWriter(@"F:\Khachhang_" + IDNV + ".txt");
-                sw.WriteLine("----------------------Danh sách khách hàng--------------------");
+                sw.WriteLine("                                                    Danh sách khách hàng                                                           ");
+                sw.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------");
 
                 for (int i = 0; i < dtgChitietCanhan.Rows.Count - 1; i++)
                 {
@@ -82,7 +83,7 @@ namespace CarParkingManagementSystem
                         sw.Write(" " + dtgChitietCanhan.Rows[i].Cells[j].Value.ToString() + " " + "|");
                     }
                     sw.WriteLine("");
-                    sw.WriteLine("------------------------------------------------------------------------------------------------------------------");
+                    sw.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------");
                 }
                 sw.Close();
 
