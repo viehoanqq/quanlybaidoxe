@@ -357,6 +357,44 @@ namespace CarParkingManagementSystem.BSLayer
             int result = cmd.ExecuteNonQuery();
             return result > 0;
         }
+        public object TinhDoanhThuTraDoXe(string ngayBatDau, string ngayKetThuc)
+        {
+            object dt;
+            // SELECT SUM(CONVERT(INT, nx.sotien)) AS TongSoTien FROM NoiDoXe nx JOIN ThongTinCaNhan ttcn ON nx.IDNguoiDung = ttcn.ID WHERE nx.trangthai = 'tra'  AND ttcn.ngayLayXe BETWEEN '2020-01-01' AND '2024-01-31';
+            string sql = string.Format("SELECT SUM(CONVERT(INT, nx.sotien)) AS TongSoTien FROM NoiDoXe nx JOIN ThongTinCaNhan ttcn ON nx.IDNguoiDung = ttcn.ID WHERE nx.trangthai = 'tra'  AND ttcn.ngayLayXe BETWEEN '{0}' AND '{1}'", ngayBatDau, ngayKetThuc);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable table = new DataTable();
+            adapter.Fill(table);
+            if (table.Rows.Count == 1)
+            {
+                dt = table.Rows[0]["TongSoTien"];
+            }
+            else
+            {
+                dt = null;
+            }
+            return dt;
+        }
+        public object TinhDoanhThuChuaTraDoXe(string ngayBatDau, string ngayKetThuc)
+        {
+            object dt;
+            // SELECT SUM(CONVERT(INT, nx.sotien)) AS TongSoTien FROM NoiDoXe nx JOIN ThongTinCaNhan ttcn ON nx.IDNguoiDung = ttcn.ID WHERE nx.trangthai = 'chuatra'  AND ttcn.ngayLayXe BETWEEN '2020-01-01' AND '2024-01-31';
+            string sql = string.Format("SELECT SUM(CONVERT(INT, nx.sotien)) AS TongSoTien FROM NoiDoXe nx JOIN ThongTinCaNhan ttcn ON nx.IDNguoiDung = ttcn.ID WHERE nx.trangthai = 'chuatra'  AND ttcn.ngayLayXe BETWEEN '{0}' AND '{1}'", ngayBatDau, ngayKetThuc);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable table = new DataTable();
+            adapter.Fill(table);
+            if (table.Rows.Count == 1)
+            {
+                dt = table.Rows[0]["TongSoTien"];
+            }
+            else
+            {
+                dt = null;
+            }
+            return dt;
+        }
 
         public DataTable GetAllInfoDoXe()
         {

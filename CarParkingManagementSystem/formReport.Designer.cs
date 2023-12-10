@@ -28,51 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.txtFind = new System.Windows.Forms.TextBox();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
             this.btnReload = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dtgReport = new System.Windows.Forms.DataGridView();
             this.dtpDayEnd = new System.Windows.Forms.DateTimePicker();
             this.dtpDayStart = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btn_Xuat = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cb_Type = new System.Windows.Forms.ComboBox();
+            this.btn_Xem = new System.Windows.Forms.Button();
+            this.txtFind = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgReport)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAdd.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.btnAdd.FlatAppearance.BorderSize = 0;
-            this.btnAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
-            this.btnAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnAdd.Location = new System.Drawing.Point(843, 15);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(0);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(47, 33);
-            this.btnAdd.TabIndex = 19;
-            this.btnAdd.Text = "+";
-            this.btnAdd.UseVisualStyleBackColor = false;
-            // 
-            // txtFind
-            // 
-            this.txtFind.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtFind.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFind.Location = new System.Drawing.Point(68, 15);
-            this.txtFind.Margin = new System.Windows.Forms.Padding(0);
-            this.txtFind.Name = "txtFind";
-            this.txtFind.Size = new System.Drawing.Size(337, 32);
-            this.txtFind.TabIndex = 18;
             // 
             // label4
             // 
@@ -80,20 +53,16 @@
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(0, 22);
+            this.label4.Location = new System.Drawing.Point(15, 23);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 25);
+            this.label4.Size = new System.Drawing.Size(247, 25);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Find:";
+            this.label4.Text = "Thông tin Doanh Thu";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.btnSave);
-            this.panel2.Controls.Add(this.btnAdd);
-            this.panel2.Controls.Add(this.btnEdit);
-            this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.btnReload);
             this.panel2.Controls.Add(this.txtFind);
             this.panel2.Controls.Add(this.label4);
@@ -103,61 +72,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(983, 73);
             this.panel2.TabIndex = 0;
-            // 
-            // btnSave
-            // 
-            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnSave.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSave.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
-            this.btnSave.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
-            this.btnSave.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
-            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSave.Image = global::CarParkingManagementSystem.Properties.Resources.save1;
-            this.btnSave.Location = new System.Drawing.Point(796, 15);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(0);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(47, 33);
-            this.btnSave.TabIndex = 20;
-            this.btnSave.Text = "+";
-            this.btnSave.UseVisualStyleBackColor = false;
-            // 
-            // btnEdit
-            // 
-            this.btnEdit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnEdit.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.btnEdit.FlatAppearance.BorderSize = 0;
-            this.btnEdit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
-            this.btnEdit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEdit.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEdit.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnEdit.Image = global::CarParkingManagementSystem.Properties.Resources.edit__1_;
-            this.btnEdit.Location = new System.Drawing.Point(889, 15);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(0);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(47, 33);
-            this.btnEdit.TabIndex = 19;
-            this.btnEdit.UseVisualStyleBackColor = false;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnDelete.FlatAppearance.BorderSize = 0;
-            this.btnDelete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
-            this.btnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnDelete.Image = global::CarParkingManagementSystem.Properties.Resources.delete__1_;
-            this.btnDelete.Location = new System.Drawing.Point(936, 15);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(0);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(47, 33);
-            this.btnDelete.TabIndex = 19;
-            this.btnDelete.UseVisualStyleBackColor = false;
             // 
             // btnReload
             // 
@@ -171,12 +85,13 @@
             this.btnReload.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReload.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnReload.Image = global::CarParkingManagementSystem.Properties.Resources.reload;
-            this.btnReload.Location = new System.Drawing.Point(416, 15);
+            this.btnReload.Location = new System.Drawing.Point(288, 21);
             this.btnReload.Margin = new System.Windows.Forms.Padding(0);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(47, 33);
             this.btnReload.TabIndex = 19;
             this.btnReload.UseVisualStyleBackColor = false;
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
             // panel1
             // 
@@ -192,14 +107,14 @@
             // 
             this.dtgReport.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgReport.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgReport.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgReport.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dtgReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgReport.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgReport.Location = new System.Drawing.Point(0, 73);
@@ -212,8 +127,8 @@
             // dtpDayEnd
             // 
             this.dtpDayEnd.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpDayEnd.Location = new System.Drawing.Point(627, 486);
-            this.dtpDayEnd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpDayEnd.Location = new System.Drawing.Point(539, 486);
+            this.dtpDayEnd.Margin = new System.Windows.Forms.Padding(4);
             this.dtpDayEnd.Name = "dtpDayEnd";
             this.dtpDayEnd.Size = new System.Drawing.Size(348, 24);
             this.dtpDayEnd.TabIndex = 0;
@@ -221,11 +136,92 @@
             // dtpDayStart
             // 
             this.dtpDayStart.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpDayStart.Location = new System.Drawing.Point(251, 486);
-            this.dtpDayStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpDayStart.Location = new System.Drawing.Point(163, 486);
+            this.dtpDayStart.Margin = new System.Windows.Forms.Padding(4);
             this.dtpDayStart.Name = "dtpDayStart";
-            this.dtpDayStart.Size = new System.Drawing.Size(348, 24);
+            this.dtpDayStart.Size = new System.Drawing.Size(350, 24);
             this.dtpDayStart.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(13, 486);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(127, 23);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "Select Time:";
+            // 
+            // btn_Xuat
+            // 
+            this.btn_Xuat.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_Xuat.FlatAppearance.BorderSize = 0;
+            this.btn_Xuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Xuat.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Xuat.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_Xuat.Location = new System.Drawing.Point(382, 612);
+            this.btn_Xuat.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_Xuat.Name = "btn_Xuat";
+            this.btn_Xuat.Size = new System.Drawing.Size(182, 44);
+            this.btn_Xuat.TabIndex = 22;
+            this.btn_Xuat.Text = "Xuất ";
+            this.btn_Xuat.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(13, 541);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(128, 23);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "Select Type:";
+            // 
+            // cb_Type
+            // 
+            this.cb_Type.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_Type.FormattingEnabled = true;
+            this.cb_Type.Items.AddRange(new object[] {
+            "Chưa trả",
+            "Trả"});
+            this.cb_Type.Location = new System.Drawing.Point(163, 541);
+            this.cb_Type.Name = "cb_Type";
+            this.cb_Type.Size = new System.Drawing.Size(121, 27);
+            this.cb_Type.TabIndex = 25;
+            // 
+            // btn_Xem
+            // 
+            this.btn_Xem.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_Xem.FlatAppearance.BorderSize = 2;
+            this.btn_Xem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Xem.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Xem.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_Xem.Location = new System.Drawing.Point(177, 612);
+            this.btn_Xem.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_Xem.Name = "btn_Xem";
+            this.btn_Xem.Size = new System.Drawing.Size(180, 44);
+            this.btn_Xem.TabIndex = 26;
+            this.btn_Xem.Text = "Xem";
+            this.btn_Xem.UseVisualStyleBackColor = false;
+            this.btn_Xem.Click += new System.EventHandler(this.btn_Xem_Click);
+            // 
+            // txtFind
+            // 
+            this.txtFind.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtFind.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFind.Location = new System.Drawing.Point(527, 15);
+            this.txtFind.Margin = new System.Windows.Forms.Padding(0);
+            this.txtFind.Name = "txtFind";
+            this.txtFind.Size = new System.Drawing.Size(337, 32);
+            this.txtFind.TabIndex = 18;
             // 
             // formReport
             // 
@@ -233,11 +229,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1008, 756);
+            this.Controls.Add(this.btn_Xem);
+            this.Controls.Add(this.cb_Type);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btn_Xuat);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dtpDayEnd);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dtpDayStart);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "formReport";
             this.Text = "formReport";
             this.Load += new System.EventHandler(this.formReport_Load);
@@ -246,22 +247,23 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgReport)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.TextBox txtFind;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnReload;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DateTimePicker dtpDayEnd;
         private System.Windows.Forms.DateTimePicker dtpDayStart;
         private System.Windows.Forms.DataGridView dtgReport;
-        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_Xuat;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox cb_Type;
+        private System.Windows.Forms.Button btn_Xem;
+        private System.Windows.Forms.TextBox txtFind;
     }
 }
