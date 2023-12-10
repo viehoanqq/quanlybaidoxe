@@ -1,6 +1,6 @@
 ﻿namespace CarParkingManagementSystem
 {
-    partial class formParkingInformation
+    partial class formRetrieveCarAttendant
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnMinimize = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.layoutPnl = new System.Windows.Forms.FlowLayoutPanel();
             this.parked = new CarParkingManagementSystem.parkingSpace();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -56,10 +60,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.layoutPnl.SuspendLayout();
             this.panel5.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -70,22 +76,78 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.panel4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(756, 614);
-            this.panel1.TabIndex = 1;
+            this.panel1.Size = new System.Drawing.Size(756, 484);
+            this.panel1.TabIndex = 2;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Image = global::CarParkingManagementSystem.Properties.Resources.exit_white;
+            this.btnExit.Location = new System.Drawing.Point(703, 0);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(0);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(45, 36);
+            this.btnExit.TabIndex = 7;
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnMinimize.FlatAppearance.BorderSize = 0;
+            this.btnMinimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
+            this.btnMinimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Image = global::CarParkingManagementSystem.Properties.Resources.minimize_white;
+            this.btnMinimize.Location = new System.Drawing.Point(658, 0);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(0);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(45, 36);
+            this.btnMinimize.TabIndex = 8;
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.layoutPnl);
-            this.panel2.Location = new System.Drawing.Point(7, 17);
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Controls.Add(this.btnMinimize);
+            this.panel2.Controls.Add(this.btnExit);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(737, 533);
+            this.panel2.Size = new System.Drawing.Size(748, 36);
             this.panel2.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.panel3);
+            this.panel4.Controls.Add(this.panel2);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(752, 480);
+            this.panel4.TabIndex = 3;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.layoutPnl);
+            this.panel3.Location = new System.Drawing.Point(6, 36);
+            this.panel3.Margin = new System.Windows.Forms.Padding(0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(737, 414);
+            this.panel3.TabIndex = 1;
             // 
             // layoutPnl
             // 
@@ -96,7 +158,7 @@
             this.layoutPnl.Location = new System.Drawing.Point(0, 0);
             this.layoutPnl.Margin = new System.Windows.Forms.Padding(0);
             this.layoutPnl.Name = "layoutPnl";
-            this.layoutPnl.Size = new System.Drawing.Size(737, 533);
+            this.layoutPnl.Size = new System.Drawing.Size(737, 414);
             this.layoutPnl.TabIndex = 2;
             // 
             // parked
@@ -119,7 +181,7 @@
             this.panel5.Controls.Add(this.groupBox2);
             this.panel5.Controls.Add(this.groupBox1);
             this.panel5.Controls.Add(this.panel6);
-            this.panel5.Controls.Add(this.panel3);
+            this.panel5.Controls.Add(this.panel8);
             this.panel5.Location = new System.Drawing.Point(243, 0);
             this.panel5.Margin = new System.Windows.Forms.Padding(0);
             this.panel5.Name = "panel5";
@@ -128,12 +190,13 @@
             // 
             // btnRetrieve
             // 
-            this.btnRetrieve.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnRetrieve.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnRetrieve.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnRetrieve.FlatAppearance.BorderSize = 0;
+            this.btnRetrieve.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
+            this.btnRetrieve.FlatAppearance.BorderSize = 2;
             this.btnRetrieve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRetrieve.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRetrieve.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnRetrieve.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.btnRetrieve.Location = new System.Drawing.Point(33, 369);
             this.btnRetrieve.Margin = new System.Windows.Forms.Padding(0);
             this.btnRetrieve.Name = "btnRetrieve";
@@ -438,7 +501,7 @@
             // panel6
             // 
             this.panel6.Controls.Add(this.label1);
-            this.panel6.Controls.Add(this.panel4);
+            this.panel6.Controls.Add(this.panel7);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(33, 0);
             this.panel6.Margin = new System.Windows.Forms.Padding(0);
@@ -461,39 +524,41 @@
             this.label1.Text = "Parking Information";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel4
+            // panel7
             // 
-            this.panel4.BackColor = System.Drawing.Color.Silver;
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 47);
-            this.panel4.Margin = new System.Windows.Forms.Padding(0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(453, 3);
-            this.panel4.TabIndex = 0;
+            this.panel7.BackColor = System.Drawing.Color.Silver;
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel7.Location = new System.Drawing.Point(0, 47);
+            this.panel7.Margin = new System.Windows.Forms.Padding(0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(453, 3);
+            this.panel7.TabIndex = 0;
             // 
-            // panel3
+            // panel8
             // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(33, 405);
-            this.panel3.TabIndex = 0;
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Margin = new System.Windows.Forms.Padding(0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(33, 405);
+            this.panel8.TabIndex = 0;
             // 
-            // formParkingInformation
+            // formRetrieveCarAttendant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(756, 614);
+            this.ClientSize = new System.Drawing.Size(756, 484);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "formParkingInformation";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "formParkingInformation";
-            this.Load += new System.EventHandler(this.formParkingInformation_Load);
+            this.Name = "formRetrieveCarAttendant";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "formRetrieveCarAttendant";
+            this.Load += new System.EventHandler(this.formRetrieveCarAttendant_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.layoutPnl.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
@@ -509,7 +574,11 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btnMinimize;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.FlowLayoutPanel layoutPnl;
         private parkingSpace parked;
         private System.Windows.Forms.Panel panel5;
@@ -536,7 +605,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel8;
     }
 }

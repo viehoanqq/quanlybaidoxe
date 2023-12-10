@@ -57,5 +57,14 @@ namespace CarParkingManagementSystem
         {
             LoadData();
         }
+
+        private void dtgChitietCanhan_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int r = dtgChitietCanhan.CurrentCell.RowIndex;
+            string id = dtgChitietCanhan.Rows[r].Cells[0].Value.ToString();
+
+            formRetrieveCarAttendant form = new formRetrieveCarAttendant(id);
+            form.Show();
+        }
     }
 }

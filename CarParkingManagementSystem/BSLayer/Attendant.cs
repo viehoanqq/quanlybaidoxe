@@ -86,5 +86,42 @@ namespace CarParkingManagementSystem.BSLayer
             adapter.Fill(dt);
             return dt;
         }
+
+        public DataTable ThongtinDoxe(string IDKH)
+        {
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand("select ID, ten, tuoi, diachi, sdt, bienSo, ngayDoXe, ngayLayXe, DX.sotien from ThongTinCaNhan CN inner join NoiDoXe DX on CN.ID = DX.IDNguoiDung where CN.ID = '" + IDKH + "'", db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(dt);
+            return dt;
+        }
+
+        public object ViTriDoXe(string ID)
+        {
+            object dt;
+            string sql = string.Format("select IDDoxe from NoiDoXe where IDNguoiDung = '{0}'", ID);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable table = new DataTable();
+            adapter.Fill(table);
+            if (table.Rows.Count == 1)
+            {
+                dt = table.Rows[0]["IDDoxe"];
+            }
+            else
+            {
+                dt = null;
+            }
+            return dt;
+        }
+
+        public bool LayXe(string IDDoXe)
+        {
+            string sql = string.Format("update NoiDoXe set IDNguoiDung = null, trangthai = 'trong' where IDDoXe = '{0}'", IDDoXe);
+            SqlCommand cmd = new SqlCommand(sql, db.GetConnection());
+            db.OpenConnection();
+            int result = cmd.ExecuteNonQuery();
+            return result > 0;
+        }
     }
 }

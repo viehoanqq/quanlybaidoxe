@@ -1,5 +1,4 @@
-﻿using CarParkingManagementSystem.Properties;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,18 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CarParkingManagementSystem.DBLayer;
 using CarParkingManagementSystem.BSLayer;
-
+using CarParkingManagementSystem.Properties;
 
 namespace CarParkingManagementSystem
 {
-    public partial class formParkingInformation : Form
+    public partial class formRetrieveCarAttendant : Form
     {
-        Customer customer = new Customer();
+        Attendant attendant = new Attendant();
         public string IDKH;
 
-        public formParkingInformation(string id)
+        public formRetrieveCarAttendant(string id)
         {
             InitializeComponent();
             IDKH = id;
@@ -27,8 +25,8 @@ namespace CarParkingManagementSystem
 
         public void LoadData()
         {
-            DataTable dt = customer.ThongtinDoxe(IDKH);
-            if (dt.Rows.Count > 0 )
+            DataTable dt = attendant.ThongtinDoxe(IDKH);
+            if (dt.Rows.Count > 0)
             {
                 this.lblID.Text = dt.Rows[0]["ID"].ToString();
                 this.lblName.Text = dt.Rows[0]["ten"].ToString();
@@ -55,27 +53,38 @@ namespace CarParkingManagementSystem
             }
         }
 
-        private void formParkingInformation_Load(object sender, EventArgs e)
+        private void parkingLot()
+        {
+            object IDspace = null;
+            if (NullReferenceException.Equals(attendant.ViTriDoXe(IDKH), IDspace))
+                parked.IDSpace = "IDSpace";
+            else
+                parked.IDSpace = attendant.ViTriDoXe(IDKH).ToString();
+            parked.Icon = Resources.car;
+            parked.IconBg = Color.Gainsboro;
+        }
+
+        private void formRetrieveCarAttendant_Load(object sender, EventArgs e)
         {
             parkingLot();
             LoadData();
         }
 
-        private void parkingLot()
-        {
-            object IDspace = null;
-            if (NullReferenceException.Equals(customer.ViTriDoXe(IDKH), IDspace))
-                parked.IDSpace = "IDSpace";
-            else
-                parked.IDSpace = customer.ViTriDoXe(IDKH).ToString();
-            parked.Icon = Resources.car;
-            parked.IconBg = Color.Gainsboro;            
-        }
-
         private void btnRetrieve_Click(object sender, EventArgs e)
         {
-            formPayment form = new formPayment(IDKH);
-            form.ShowDialog();
+            attendant.LayXe(attendant.ViTriDoXe(IDKH).ToString());
+            MessageBox.Show("Lấy xe thành công!");
+            this.Close();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
