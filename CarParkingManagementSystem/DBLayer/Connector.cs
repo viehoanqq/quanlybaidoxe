@@ -10,8 +10,8 @@ namespace CarParkingManagementSystem.DBLayer
 {
     public class Connector
     {
-        //string connStr = "Data Source= DESKTOP-80ID4H9;Initial Catalog=testDoXe;Integrated Security=True";
-        string connStr = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=testDoXe;Integrated Security=True";
+        string connStr = "Data Source= DESKTOP-80ID4H9;Initial Catalog=testDoXe;Integrated Security=True";
+        //string connStr = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=testDoXe;Integrated Security=True";
         SqlConnection conn = null;
 
         public Connector()

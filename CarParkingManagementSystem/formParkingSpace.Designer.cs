@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lb_SoLuongBaiDo = new System.Windows.Forms.Label();
             this.lb_SoXeDaTra = new System.Windows.Forms.Label();
             this.lb_SoTienDaTra = new System.Windows.Forms.Label();
@@ -85,12 +85,12 @@
             this.lb_SoTienDaTra.BackColor = System.Drawing.Color.DarkGray;
             this.lb_SoTienDaTra.Font = new System.Drawing.Font("Verdana", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_SoTienDaTra.ForeColor = System.Drawing.Color.Black;
-            this.lb_SoTienDaTra.Location = new System.Drawing.Point(945, 59);
+            this.lb_SoTienDaTra.Location = new System.Drawing.Point(858, 59);
             this.lb_SoTienDaTra.Margin = new System.Windows.Forms.Padding(0);
             this.lb_SoTienDaTra.Name = "lb_SoTienDaTra";
-            this.lb_SoTienDaTra.Size = new System.Drawing.Size(46, 45);
+            this.lb_SoTienDaTra.Size = new System.Drawing.Size(137, 45);
             this.lb_SoTienDaTra.TabIndex = 16;
-            this.lb_SoTienDaTra.Text = "0";
+            this.lb_SoTienDaTra.Text = "0.000";
             this.lb_SoTienDaTra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
@@ -107,14 +107,14 @@
             // 
             this.dtgChitietBaidoxe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgChitietBaidoxe.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgChitietBaidoxe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgChitietBaidoxe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgChitietBaidoxe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgChitietBaidoxe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgChitietBaidoxe.Location = new System.Drawing.Point(0, 42);
@@ -349,7 +349,7 @@
             this.Controls.Add(this.btnRetrieveCar);
             this.Controls.Add(this.btnParkCar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "formParkingSpace";
             this.Text = "formParkingSpace";
             this.Load += new System.EventHandler(this.formParkingSpace_Load);
