@@ -86,9 +86,27 @@ namespace CarParkingManagementSystem
 
         private void btnThanhtoan_Click(object sender, EventArgs e)
         {
-            customer.LayXe(customer.ViTriDoXe(IDKH).ToString());
-            MessageBox.Show("Thanh toán thành công!");
-            MessageBox.Show("Lấy xe thành công!");
+            string jkhj = IDKH;
+            //customer.LayXe(customer.ViTriDoXe(IDKH).ToString());
+            //MessageBox.Show("Thanh toán thành công!");
+            //MessageBox.Show("Lấy xe thành công!");
+            string idDoXe = customer.ViTriDoXemew(IDKH);
+            if (idDoXe != null)
+            {
+                bool success = customer.LayXe(idDoXe);
+                if (success)
+                {
+                    MessageBox.Show("Lấy xe thành công!");
+                }
+                else
+                {
+                    MessageBox.Show("Không thể cập nhật cơ sở dữ liệu.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy vị trí đỗ xe của bạn.");
+            }
             this.Close();
         }
     }

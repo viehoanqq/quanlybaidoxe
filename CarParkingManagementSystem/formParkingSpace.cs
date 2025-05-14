@@ -119,7 +119,7 @@ namespace CarParkingManagementSystem
         {
             try
             {
-                StreamWriter sw = new StreamWriter(@"D:\SPKT\NamBa\OOPR230279_23_1_12\Tuan16\Folder\BaiDo.txt");
+                StreamWriter sw = new StreamWriter(Constant.Parth + "BaiDo.txt");
                 sw.WriteLine("                                                    Danh sách Bãi Đỗ                                                         ");
                 sw.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------");
 
@@ -140,6 +140,11 @@ namespace CarParkingManagementSystem
             {
                 MessageBox.Show("In thất bại!\n" + ex.Message);
             }
+        }
+
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,0 +1,1120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\dblayer\\connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\dblayer\\connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\bslayer\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\bslayer\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\dblayer\\icallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\dblayer\\icallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|d:\\cworkspace\\carparkingmanagementsystem\\carparkingmanagementsystem\\carparkingmanagementsystem\\forminputticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\forminputticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|d:\\cworkspace\\carparkingmanagementsystem\\carparkingmanagementsystem\\carparkingmanagementsystem\\bslayer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\bslayer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkcarattendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkcarattendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkinginformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkinginformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkinginformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkinginformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formchooscricel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formchooscricel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formchooscricel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formchooscricel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formretrievecarattendant.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formretrievecarattendant.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkinginformation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkinginformation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkingspacedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkingspacedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\bslayer\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\bslayer\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkingspacedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkingspacedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formstaffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formstaffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formuserattendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formuserattendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formusercustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formusercustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\forminputticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\forminputticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formdiscountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formdiscountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomerofattendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomerofattendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formchangepassadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formchangepassadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formattendantmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formattendantmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formaccountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formaccountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\parkingspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\parkingspace.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\parkingspace.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkcarattendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkcarattendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomerofattendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomerofattendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkinglot.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkinglot.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CarParkingManagementSystem||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formchooscricel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formchooscricel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomermain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomermain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formparkingspace.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formparkingspace.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formdiscount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formdiscount.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formdiscount.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formdiscountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formdiscountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formdiscountdetail.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formdiscountdetail.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formcustomerdetail.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formcustomerdetail.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formstaffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formstaffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\bslayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\bslayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\bslayer\\attendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\bslayer\\attendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\carparkingmanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{851685A4-9B72-4224-9452-F8C0E1AF1562}|CarParkingManagementSystem\\CarParkingManagementSystem.csproj|solutionrelative:carparkingmanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\BSLayer\\Customer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\BSLayer\\Customer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\BSLayer\\Customer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\BSLayer\\Customer.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAuwFsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "formCustomerMain.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerMain.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomerMain.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerMain.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomerMain.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "formParkCarAttendant.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkCarAttendant.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkCarAttendant.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkCarAttendant.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkCarAttendant.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connector.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\DBLayer\\Connector.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\DBLayer\\Connector.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\DBLayer\\Connector.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\DBLayer\\Connector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IcallBack.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\DBLayer\\IcallBack.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\DBLayer\\IcallBack.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\DBLayer\\IcallBack.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\DBLayer\\IcallBack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Constant.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\BSLayer\\Constant.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\BSLayer\\Constant.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\BSLayer\\Constant.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\BSLayer\\Constant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:14:06.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formAccount.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formAccount.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formAccount.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formAccount.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formAccount.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAiwGgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormChoosCricel.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormChoosCricel.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\FormChoosCricel.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormChoosCricel.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\FormChoosCricel.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formInputTicket.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formInputTicket.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formInputTicket.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formInputTicket.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formInputTicket.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:06:31.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "formParkingInformation.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingInformation.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingInformation.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingInformation.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingInformation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "formParkingInformation.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingInformation.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingInformation.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingInformation.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingInformation.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwEwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "formPayment.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formPayment.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formPayment.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formPayment.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formPayment.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAlwF8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:52:54.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormChoosCricel.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormChoosCricel.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\FormChoosCricel.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormChoosCricel.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\FormChoosCricel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "parkingSpace.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\parkingSpace.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\parkingSpace.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\parkingSpace.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\parkingSpace.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAawB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:25:20.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "formLogin.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formLogin.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formLogin.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formLogin.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formLogin.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "formParkingLot.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingLot.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingLot.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingLot.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingLot.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "formParkingLot.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingLot.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingLot.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingLot.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingLot.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "formChangePassword.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formChangePassword.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formChangePassword.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formChangePassword.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formChangePassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "formRetrieveCarAttendant.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formRetrieveCarAttendant.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formRetrieveCarAttendant.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formRetrieveCarAttendant.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formRetrieveCarAttendant.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:34:20.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "formCustomer.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomer.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "formParkingInformation.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingInformation.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingInformation.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingInformation.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingInformation.Designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "formParkingSpaceDetail.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingSpaceDetail.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingSpaceDetail.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingSpaceDetail.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingSpaceDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "formParkingSpace.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingSpace.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingSpace.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingSpace.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingSpace.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\BSLayer\\Manager.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\BSLayer\\Manager.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\BSLayer\\Manager.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\BSLayer\\Manager.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAlwHAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "formUser.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formUser.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formUser.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formUser.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "formStaffDetail.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formStaffDetail.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formStaffDetail.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formStaffDetail.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formStaffDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "formParkingSpaceDetail.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingSpaceDetail.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingSpaceDetail.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingSpaceDetail.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingSpaceDetail.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAEwBkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "formStaff.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formStaff.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formStaff.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formStaff.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formStaff.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "formPayment.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formPayment.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formPayment.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formPayment.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formPayment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "formReport.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formReport.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formReport.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formReport.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "formUserAttendant.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formUserAttendant.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formUserAttendant.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formUserAttendant.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formUserAttendant.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "formUserCustomer.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formUserCustomer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formUserCustomer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formUserCustomer.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formUserCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "formParkingSpace.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingSpace.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingSpace.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingSpace.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingSpace.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "formMain.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formMain.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formMain.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formMain.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.244Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "formLogin.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formLogin.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formLogin.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formLogin.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "formInputTicket.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formInputTicket.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formInputTicket.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formInputTicket.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formInputTicket.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.241Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "formDiscountDetail.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formDiscountDetail.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formDiscountDetail.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formDiscountDetail.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formDiscountDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FormDiscount.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormDiscount.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\FormDiscount.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormDiscount.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\FormDiscount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "formCustomerOfAttendant.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerOfAttendant.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomerOfAttendant.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerOfAttendant.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomerOfAttendant.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "formCustomerMain.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerMain.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomerMain.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerMain.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomerMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "formCustomerDetail.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerDetail.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomerDetail.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerDetail.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomerDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "formChangePassAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formChangePassAdmin.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formChangePassAdmin.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formChangePassAdmin.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formChangePassAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "formAttendantMain.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formAttendantMain.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formAttendantMain.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formAttendantMain.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formAttendantMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "formAccountDetail.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formAccountDetail.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formAccountDetail.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formAccountDetail.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formAccountDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "formAccount.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formAccount.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formAccount.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formAccount.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\formAccount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.261Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "parkingSpace.cs [Design]",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\parkingSpace.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\parkingSpace.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\parkingSpace.cs [Design]",
+              "RelativeToolTip": "CarParkingManagementSystem\\parkingSpace.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "parkingSpace.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\parkingSpace.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\parkingSpace.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\parkingSpace.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\parkingSpace.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:35:21.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "formStaff.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formStaff.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formStaff.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formStaff.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formStaff.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAArwG0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:23:30.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "formParkCarAttendant.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkCarAttendant.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkCarAttendant.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkCarAttendant.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkCarAttendant.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAASwD4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "formCustomerOfAttendant.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerOfAttendant.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomerOfAttendant.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerOfAttendant.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomerOfAttendant.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwEsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "formCustomer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomer.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CarParkingManagementSystem",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem.csproj",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\CarParkingManagementSystem.csproj",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem.csproj",
+              "RelativeToolTip": "CarParkingManagementSystem\\CarParkingManagementSystem.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T11:06:11.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "formParkingLot.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingLot.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingLot.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingLot.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingLot.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FormChoosCricel.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormChoosCricel.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\FormChoosCricel.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormChoosCricel.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\FormChoosCricel.Designer.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAswHAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "formCustomerMain.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerMain.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomerMain.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerMain.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomerMain.Designer.cs",
+              "ViewState": "AgIAABABAAAAAAAAAAAswCgBAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "formParkingSpace.resx",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingSpace.resx",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formParkingSpace.resx",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formParkingSpace.resx",
+              "RelativeToolTip": "CarParkingManagementSystem\\formParkingSpace.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-22T13:56:48.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "FormDiscount.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormDiscount.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\FormDiscount.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormDiscount.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\FormDiscount.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "FormDiscount.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormDiscount.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\FormDiscount.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\FormDiscount.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\FormDiscount.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwF4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "formDiscountDetail.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formDiscountDetail.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formDiscountDetail.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formDiscountDetail.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formDiscountDetail.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADgvx8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "formDiscountDetail.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formDiscountDetail.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formDiscountDetail.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formDiscountDetail.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formDiscountDetail.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "formMain.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formMain.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formMain.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formMain.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formMain.Designer.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAYwHoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "formCustomer.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomer.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomer.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomer.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomer.Designer.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAAPoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "formCustomerDetail.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerDetail.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomerDetail.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerDetail.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomerDetail.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwD8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "formCustomerDetail.Designer.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerDetail.Designer.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formCustomerDetail.Designer.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formCustomerDetail.Designer.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formCustomerDetail.Designer.cs",
+              "ViewState": "AgIAALkBAAAAAAAAAAAowMoBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\Program.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\Program.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "formStaffDetail.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formStaffDetail.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formStaffDetail.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formStaffDetail.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formStaffDetail.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAADwv1IAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "formReport.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formReport.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\formReport.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\formReport.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\formReport.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "login.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\BSLayer\\login.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\BSLayer\\login.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\BSLayer\\login.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\BSLayer\\login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Attendant.cs",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\BSLayer\\Attendant.cs",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\BSLayer\\Attendant.cs",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\BSLayer\\Attendant.cs",
+              "RelativeToolTip": "CarParkingManagementSystem\\BSLayer\\Attendant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T13:56:48.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\App.config",
+              "RelativeDocumentMoniker": "CarParkingManagementSystem\\App.config",
+              "ToolTip": "D:\\cWorkspace\\CarParkingManagementSystem\\CarParkingManagementSystem\\CarParkingManagementSystem\\App.config",
+              "RelativeToolTip": "CarParkingManagementSystem\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-22T13:56:48.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

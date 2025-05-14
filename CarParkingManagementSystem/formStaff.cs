@@ -107,7 +107,7 @@ namespace CarParkingManagementSystem
         {
             try
             {
-                StreamWriter sw = new StreamWriter(@"D:\SPKT\NamBa\OOPR230279_23_1_12\Tuan16\Folder\NhanVien.txt");
+                StreamWriter sw = new StreamWriter(Constant.Parth + "NhanVien.txt");
                 sw.WriteLine("                                                    Danh sách Nhân Viên                                                          ");
                 sw.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------");
 
@@ -128,6 +128,11 @@ namespace CarParkingManagementSystem
             {
                 MessageBox.Show("In thất bại!\n" + ex.Message);
             }
+        }
+
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

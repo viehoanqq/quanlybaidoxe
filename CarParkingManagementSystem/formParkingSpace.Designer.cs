@@ -57,10 +57,10 @@
             this.lb_SoLuongBaiDo.BackColor = System.Drawing.Color.DarkGray;
             this.lb_SoLuongBaiDo.Font = new System.Drawing.Font("Verdana", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_SoLuongBaiDo.ForeColor = System.Drawing.Color.Black;
-            this.lb_SoLuongBaiDo.Location = new System.Drawing.Point(281, 59);
+            this.lb_SoLuongBaiDo.Location = new System.Drawing.Point(211, 48);
             this.lb_SoLuongBaiDo.Margin = new System.Windows.Forms.Padding(0);
             this.lb_SoLuongBaiDo.Name = "lb_SoLuongBaiDo";
-            this.lb_SoLuongBaiDo.Size = new System.Drawing.Size(46, 45);
+            this.lb_SoLuongBaiDo.Size = new System.Drawing.Size(36, 36);
             this.lb_SoLuongBaiDo.TabIndex = 16;
             this.lb_SoLuongBaiDo.Text = "0";
             this.lb_SoLuongBaiDo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -71,10 +71,10 @@
             this.lb_SoXeDaTra.BackColor = System.Drawing.Color.DarkGray;
             this.lb_SoXeDaTra.Font = new System.Drawing.Font("Verdana", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_SoXeDaTra.ForeColor = System.Drawing.Color.Black;
-            this.lb_SoXeDaTra.Location = new System.Drawing.Point(613, 59);
+            this.lb_SoXeDaTra.Location = new System.Drawing.Point(460, 48);
             this.lb_SoXeDaTra.Margin = new System.Windows.Forms.Padding(0);
             this.lb_SoXeDaTra.Name = "lb_SoXeDaTra";
-            this.lb_SoXeDaTra.Size = new System.Drawing.Size(46, 45);
+            this.lb_SoXeDaTra.Size = new System.Drawing.Size(36, 36);
             this.lb_SoXeDaTra.TabIndex = 16;
             this.lb_SoXeDaTra.Text = "0";
             this.lb_SoXeDaTra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -85,10 +85,10 @@
             this.lb_SoTienDaTra.BackColor = System.Drawing.Color.DarkGray;
             this.lb_SoTienDaTra.Font = new System.Drawing.Font("Verdana", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_SoTienDaTra.ForeColor = System.Drawing.Color.Black;
-            this.lb_SoTienDaTra.Location = new System.Drawing.Point(858, 59);
+            this.lb_SoTienDaTra.Location = new System.Drawing.Point(644, 48);
             this.lb_SoTienDaTra.Margin = new System.Windows.Forms.Padding(0);
             this.lb_SoTienDaTra.Name = "lb_SoTienDaTra";
-            this.lb_SoTienDaTra.Size = new System.Drawing.Size(137, 45);
+            this.lb_SoTienDaTra.Size = new System.Drawing.Size(110, 36);
             this.lb_SoTienDaTra.TabIndex = 16;
             this.lb_SoTienDaTra.Text = "0.000";
             this.lb_SoTienDaTra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -97,10 +97,10 @@
             // 
             this.panel1.Controls.Add(this.dtgChitietBaidoxe);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(12, 118);
+            this.panel1.Location = new System.Drawing.Point(9, 96);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(983, 561);
+            this.panel1.Size = new System.Drawing.Size(737, 456);
             this.panel1.TabIndex = 17;
             // 
             // dtgChitietBaidoxe
@@ -117,11 +117,11 @@
             this.dtgChitietBaidoxe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgChitietBaidoxe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgChitietBaidoxe.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgChitietBaidoxe.Location = new System.Drawing.Point(0, 42);
+            this.dtgChitietBaidoxe.Location = new System.Drawing.Point(0, 34);
             this.dtgChitietBaidoxe.Margin = new System.Windows.Forms.Padding(0);
             this.dtgChitietBaidoxe.Name = "dtgChitietBaidoxe";
             this.dtgChitietBaidoxe.RowHeadersWidth = 51;
-            this.dtgChitietBaidoxe.Size = new System.Drawing.Size(983, 519);
+            this.dtgChitietBaidoxe.Size = new System.Drawing.Size(737, 422);
             this.dtgChitietBaidoxe.TabIndex = 1;
             // 
             // panel2
@@ -138,7 +138,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(983, 42);
+            this.panel2.Size = new System.Drawing.Size(737, 34);
             this.panel2.TabIndex = 0;
             // 
             // btnPrint
@@ -152,10 +152,10 @@
             this.btnPrint.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrint.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnPrint.Image = global::CarParkingManagementSystem.Properties.Resources.printer;
-            this.btnPrint.Location = new System.Drawing.Point(797, 0);
+            this.btnPrint.Location = new System.Drawing.Point(598, 0);
             this.btnPrint.Margin = new System.Windows.Forms.Padding(0);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(47, 33);
+            this.btnPrint.Size = new System.Drawing.Size(35, 27);
             this.btnPrint.TabIndex = 21;
             this.btnPrint.Text = "+";
             this.btnPrint.UseVisualStyleBackColor = false;
@@ -164,17 +164,17 @@
             // btnAdd
             // 
             this.btnAdd.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnAdd.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnAdd.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnAdd.FlatAppearance.BorderSize = 0;
             this.btnAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
             this.btnAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnAdd.Location = new System.Drawing.Point(843, 0);
+            this.btnAdd.Location = new System.Drawing.Point(632, 0);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(0);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(47, 33);
+            this.btnAdd.Size = new System.Drawing.Size(35, 27);
             this.btnAdd.TabIndex = 19;
             this.btnAdd.Text = " +";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -183,7 +183,7 @@
             // btnEdit
             // 
             this.btnEdit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnEdit.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnEdit.BackColor = System.Drawing.Color.SeaGreen;
             this.btnEdit.FlatAppearance.BorderSize = 0;
             this.btnEdit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
             this.btnEdit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
@@ -191,10 +191,10 @@
             this.btnEdit.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnEdit.Image = global::CarParkingManagementSystem.Properties.Resources.edit__1_;
-            this.btnEdit.Location = new System.Drawing.Point(889, 0);
+            this.btnEdit.Location = new System.Drawing.Point(667, 0);
             this.btnEdit.Margin = new System.Windows.Forms.Padding(0);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(47, 33);
+            this.btnEdit.Size = new System.Drawing.Size(35, 27);
             this.btnEdit.TabIndex = 19;
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
@@ -210,10 +210,10 @@
             this.btnDelete.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnDelete.Image = global::CarParkingManagementSystem.Properties.Resources.delete__1_;
-            this.btnDelete.Location = new System.Drawing.Point(936, 0);
+            this.btnDelete.Location = new System.Drawing.Point(702, 0);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(0);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(47, 33);
+            this.btnDelete.Size = new System.Drawing.Size(35, 27);
             this.btnDelete.TabIndex = 19;
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
@@ -221,7 +221,7 @@
             // btnReload
             // 
             this.btnReload.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnReload.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnReload.BackColor = System.Drawing.Color.SeaGreen;
             this.btnReload.FlatAppearance.BorderSize = 0;
             this.btnReload.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnReload.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
@@ -230,10 +230,10 @@
             this.btnReload.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReload.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnReload.Image = global::CarParkingManagementSystem.Properties.Resources.reload;
-            this.btnReload.Location = new System.Drawing.Point(460, 0);
+            this.btnReload.Location = new System.Drawing.Point(345, 0);
             this.btnReload.Margin = new System.Windows.Forms.Padding(0);
             this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(47, 33);
+            this.btnReload.Size = new System.Drawing.Size(35, 27);
             this.btnReload.TabIndex = 19;
             this.btnReload.UseVisualStyleBackColor = false;
             this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
@@ -241,7 +241,7 @@
             // btnFind
             // 
             this.btnFind.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnFind.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnFind.BackColor = System.Drawing.Color.SeaGreen;
             this.btnFind.FlatAppearance.BorderSize = 0;
             this.btnFind.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnFind.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
@@ -250,21 +250,22 @@
             this.btnFind.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFind.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnFind.Image = global::CarParkingManagementSystem.Properties.Resources.find;
-            this.btnFind.Location = new System.Drawing.Point(409, 0);
+            this.btnFind.Location = new System.Drawing.Point(307, 0);
             this.btnFind.Margin = new System.Windows.Forms.Padding(0);
             this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(47, 33);
+            this.btnFind.Size = new System.Drawing.Size(35, 27);
             this.btnFind.TabIndex = 19;
             this.btnFind.UseVisualStyleBackColor = false;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // txtFind
             // 
             this.txtFind.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtFind.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFind.Location = new System.Drawing.Point(67, 0);
+            this.txtFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFind.Location = new System.Drawing.Point(50, 0);
             this.txtFind.Margin = new System.Windows.Forms.Padding(0);
             this.txtFind.Name = "txtFind";
-            this.txtFind.Size = new System.Drawing.Size(337, 32);
+            this.txtFind.Size = new System.Drawing.Size(254, 26);
             this.txtFind.TabIndex = 18;
             this.txtFind.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFind_KeyUp);
             // 
@@ -274,27 +275,27 @@
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(0, 6);
+            this.label4.Location = new System.Drawing.Point(0, 5);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 25);
+            this.label4.Size = new System.Drawing.Size(50, 18);
             this.label4.TabIndex = 17;
             this.label4.Text = "Find:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnPayment
             // 
-            this.btnPayment.BackColor = System.Drawing.Color.DarkGray;
+            this.btnPayment.BackColor = System.Drawing.Color.Silver;
             this.btnPayment.FlatAppearance.BorderSize = 0;
             this.btnPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPayment.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPayment.ForeColor = System.Drawing.Color.Black;
             this.btnPayment.Image = global::CarParkingManagementSystem.Properties.Resources.payment_method;
             this.btnPayment.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPayment.Location = new System.Drawing.Point(676, 23);
+            this.btnPayment.Location = new System.Drawing.Point(507, 19);
             this.btnPayment.Margin = new System.Windows.Forms.Padding(0);
             this.btnPayment.Name = "btnPayment";
-            this.btnPayment.Size = new System.Drawing.Size(319, 81);
+            this.btnPayment.Size = new System.Drawing.Size(239, 66);
             this.btnPayment.TabIndex = 15;
             this.btnPayment.Text = "Payment";
             this.btnPayment.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -302,17 +303,17 @@
             // 
             // btnRetrieveCar
             // 
-            this.btnRetrieveCar.BackColor = System.Drawing.Color.DarkGray;
+            this.btnRetrieveCar.BackColor = System.Drawing.Color.Silver;
             this.btnRetrieveCar.FlatAppearance.BorderSize = 0;
             this.btnRetrieveCar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRetrieveCar.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRetrieveCar.ForeColor = System.Drawing.Color.Black;
             this.btnRetrieveCar.Image = global::CarParkingManagementSystem.Properties.Resources.retrievecar;
             this.btnRetrieveCar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRetrieveCar.Location = new System.Drawing.Point(344, 23);
+            this.btnRetrieveCar.Location = new System.Drawing.Point(258, 19);
             this.btnRetrieveCar.Margin = new System.Windows.Forms.Padding(0);
             this.btnRetrieveCar.Name = "btnRetrieveCar";
-            this.btnRetrieveCar.Size = new System.Drawing.Size(319, 81);
+            this.btnRetrieveCar.Size = new System.Drawing.Size(239, 66);
             this.btnRetrieveCar.TabIndex = 14;
             this.btnRetrieveCar.Text = "Retrieve Car";
             this.btnRetrieveCar.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -320,17 +321,17 @@
             // 
             // btnParkCar
             // 
-            this.btnParkCar.BackColor = System.Drawing.Color.DarkGray;
+            this.btnParkCar.BackColor = System.Drawing.Color.Silver;
             this.btnParkCar.FlatAppearance.BorderSize = 0;
             this.btnParkCar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnParkCar.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnParkCar.ForeColor = System.Drawing.Color.Black;
             this.btnParkCar.Image = global::CarParkingManagementSystem.Properties.Resources.parkcar;
             this.btnParkCar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnParkCar.Location = new System.Drawing.Point(12, 23);
+            this.btnParkCar.Location = new System.Drawing.Point(9, 19);
             this.btnParkCar.Margin = new System.Windows.Forms.Padding(0);
             this.btnParkCar.Name = "btnParkCar";
-            this.btnParkCar.Size = new System.Drawing.Size(319, 81);
+            this.btnParkCar.Size = new System.Drawing.Size(239, 66);
             this.btnParkCar.TabIndex = 13;
             this.btnParkCar.Text = "Park Car";
             this.btnParkCar.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -338,10 +339,10 @@
             // 
             // formParkingSpace
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1008, 756);
+            this.ClientSize = new System.Drawing.Size(756, 614);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lb_SoTienDaTra);
             this.Controls.Add(this.lb_SoXeDaTra);
@@ -350,7 +351,6 @@
             this.Controls.Add(this.btnRetrieveCar);
             this.Controls.Add(this.btnParkCar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "formParkingSpace";
             this.Text = "formParkingSpace";
             this.Load += new System.EventHandler(this.formParkingSpace_Load);

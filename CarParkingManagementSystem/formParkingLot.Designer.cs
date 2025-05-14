@@ -35,6 +35,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnReload = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.cbdiscount = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -43,6 +45,8 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.cbdiscount);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -95,7 +99,7 @@
             // btnReload
             // 
             this.btnReload.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnReload.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnReload.BackColor = System.Drawing.Color.SeaGreen;
             this.btnReload.FlatAppearance.BorderSize = 0;
             this.btnReload.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnReload.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
@@ -118,7 +122,7 @@
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Dock = System.Windows.Forms.DockStyle.Left;
             this.label4.Font = new System.Drawing.Font("Verdana", 19F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label4.ForeColor = System.Drawing.Color.SeaGreen;
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
@@ -126,6 +130,24 @@
             this.label4.TabIndex = 18;
             this.label4.Text = "Parking Lot";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // cbdiscount
+            // 
+            this.cbdiscount.FormattingEnabled = true;
+            this.cbdiscount.Location = new System.Drawing.Point(167, 573);
+            this.cbdiscount.Name = "cbdiscount";
+            this.cbdiscount.Size = new System.Drawing.Size(265, 21);
+            this.cbdiscount.TabIndex = 1;
+            this.cbdiscount.SelectedIndexChanged += new System.EventHandler(this.cbdiscount_SelectedIndexChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(81, 573);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(64, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Mã giảm giá";
             // 
             // formParkingLot
             // 
@@ -140,6 +162,7 @@
             this.Text = "formParkingLot";
             this.Load += new System.EventHandler(this.formParkingLot_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -156,5 +179,7 @@
         private System.Windows.Forms.FlowLayoutPanel layoutPnl;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnReload;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cbdiscount;
     }
 }

@@ -49,10 +49,17 @@ namespace CarParkingManagementSystem
             try
             {
                 object dt = taikhoan.loginCheck(txtUsername.Text, txtPassword.Text);
+
+                if (dt == null)
+                {
+                    MessageBox.Show("Thông tin đăng nhập không chính xác. Mời nhập lại!", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
                 if (dt.ToString() == "quanli")
                 {
                     this.Hide();
-                    formMain form = new formMain();                    
+                    formMain form = new formMain();
                     form.Show();
                 }
                 else if (dt.ToString() == "nguoidung")
@@ -126,6 +133,11 @@ namespace CarParkingManagementSystem
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

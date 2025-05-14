@@ -110,7 +110,7 @@
             // btnReload
             // 
             this.btnReload.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnReload.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnReload.BackColor = System.Drawing.Color.SeaGreen;
             this.btnReload.FlatAppearance.BorderSize = 0;
             this.btnReload.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnReload.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
@@ -130,7 +130,7 @@
             // btnFind
             // 
             this.btnFind.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnFind.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnFind.BackColor = System.Drawing.Color.SeaGreen;
             this.btnFind.FlatAppearance.BorderSize = 0;
             this.btnFind.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.btnFind.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
@@ -145,15 +145,16 @@
             this.btnFind.Size = new System.Drawing.Size(35, 27);
             this.btnFind.TabIndex = 19;
             this.btnFind.UseVisualStyleBackColor = false;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // txtFind
             // 
             this.txtFind.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtFind.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFind.Location = new System.Drawing.Point(50, 0);
             this.txtFind.Margin = new System.Windows.Forms.Padding(0);
             this.txtFind.Name = "txtFind";
-            this.txtFind.Size = new System.Drawing.Size(254, 27);
+            this.txtFind.Size = new System.Drawing.Size(254, 26);
             this.txtFind.TabIndex = 18;
             this.txtFind.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFind_KeyUp);
             // 

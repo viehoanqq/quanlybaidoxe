@@ -1,33 +1,33 @@
 ﻿namespace CarParkingManagementSystem
 {
-    partial class formParkingInformation
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+	partial class formParkingInformation
+	{
+		/// <summary>
+		/// Required designer variable.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+		/// <summary>
+		/// Clean up any resources being used.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing && (components != null))
+			{
+				components.Dispose();
+			}
+			base.Dispose(disposing);
+		}
 
-        #region Windows Form Designer generated code
+		#region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {
+		/// <summary>
+		/// Required method for Designer support - do not modify
+		/// the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.layoutPnl = new System.Windows.Forms.FlowLayoutPanel();
@@ -57,8 +57,8 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.btnReload = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.layoutPnl.SuspendLayout();
@@ -129,7 +129,7 @@
             // 
             // btnRetrieve
             // 
-            this.btnRetrieve.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnRetrieve.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnRetrieve.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnRetrieve.FlatAppearance.BorderSize = 0;
             this.btnRetrieve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -473,15 +473,6 @@
             this.panel4.Size = new System.Drawing.Size(453, 3);
             this.panel4.TabIndex = 0;
             // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(33, 405);
-            this.panel3.TabIndex = 0;
-            // 
             // btnReload
             // 
             this.btnReload.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -501,6 +492,15 @@
             this.btnReload.TabIndex = 20;
             this.btnReload.UseVisualStyleBackColor = false;
             this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(33, 405);
+            this.panel3.TabIndex = 0;
             // 
             // formParkingInformation
             // 
@@ -526,40 +526,40 @@
             this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
-        }
+		}
 
-        #endregion
+		#endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.FlowLayoutPanel layoutPnl;
-        private parkingSpace parked;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button btnRetrieve;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label lblNgaylayxe;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label lblNgaydoxe;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label lblBienso;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label lblPhidoxe;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label lblSDT;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label lblAddress;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label lblAge;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblID;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button btnReload;
-    }
+		private System.Windows.Forms.Panel panel1;
+		private System.Windows.Forms.Panel panel2;
+		private System.Windows.Forms.FlowLayoutPanel layoutPnl;
+		private parkingSpace parked;
+		private System.Windows.Forms.Panel panel5;
+		private System.Windows.Forms.Button btnRetrieve;
+		private System.Windows.Forms.GroupBox groupBox2;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label lblNgaylayxe;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Label lblNgaydoxe;
+		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Label lblBienso;
+		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.Label lblPhidoxe;
+		private System.Windows.Forms.GroupBox groupBox1;
+		private System.Windows.Forms.Label lblSDT;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.Label lblAddress;
+		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label lblAge;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label lblName;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label lblID;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Panel panel6;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Panel panel4;
+		private System.Windows.Forms.Panel panel3;
+		private System.Windows.Forms.Button btnReload;
+	}
 }

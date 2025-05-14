@@ -48,15 +48,15 @@ namespace CarParkingManagementSystem
 
                     DataTable dt = attendant.ThongtinVexe(IDKH);
 
-                    for (int i = 0; i < dt.Columns.Count; i++)
-                    {
-                        if (text.Contains(dt.Rows[0][dt.Columns[i].ColumnName.Trim()].ToString().Trim()) == false)
-                        {
-                            MessageBox.Show("Vé xe không khớp!");
-                            ticket = false;
-                            break;
-                        }
-                    }
+                    //for (int i = 0; i < dt.Columns.Count; i++)
+                    //{
+                    //    if (text.Contains(dt.Rows[0][dt.Columns[i].ColumnName.Trim()].ToString().Trim()) == false)
+                    //    {
+                    //        MessageBox.Show("Vé xe không khớp!");
+                    //        ticket = false;
+                    //        break;
+                    //    }
+                    //}
 
                     if (ticket)
                     {

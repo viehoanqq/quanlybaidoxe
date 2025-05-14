@@ -102,7 +102,7 @@ namespace CarParkingManagementSystem
         {
             try
             {
-                StreamWriter sw = new StreamWriter(@"D:\SPKT\NamBa\OOPR230279_23_1_12\Tuan16\Folder\KhachHang.txt");
+                StreamWriter sw = new StreamWriter(Constant.Parth +"KhachHang.txt");
                 sw.WriteLine("                                                    Danh sách Khách hàng                                                        ");
                 sw.WriteLine("-----------------------------------------------------------------------------------------------------------------------------------");
 

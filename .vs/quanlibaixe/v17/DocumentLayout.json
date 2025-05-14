@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\quanlibaixe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E07416E8-899A-4ABC-913B-0D9706D8E120}|DAL\\DAL.csproj|d:\\quanlibaixe\\dal\\dblayer\\connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07416E8-899A-4ABC-913B-0D9706D8E120}|DAL\\DAL.csproj|solutionrelative:dal\\dblayer\\connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71103A19-30AC-4A24-8773-7AA920391305}|BLL\\BLL.csproj|D:\\quanlibaixe\\bll\\bslayer\\attendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71103A19-30AC-4A24-8773-7AA920391305}|BLL\\BLL.csproj|solutionrelative:bll\\bslayer\\attendant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71103A19-30AC-4A24-8773-7AA920391305}|BLL\\BLL.csproj|D:\\quanlibaixe\\bll\\bslayer\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71103A19-30AC-4A24-8773-7AA920391305}|BLL\\BLL.csproj|solutionrelative:bll\\bslayer\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71103A19-30AC-4A24-8773-7AA920391305}|BLL\\BLL.csproj|D:\\quanlibaixe\\bll\\bslayer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71103A19-30AC-4A24-8773-7AA920391305}|BLL\\BLL.csproj|solutionrelative:bll\\bslayer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71103A19-30AC-4A24-8773-7AA920391305}|BLL\\BLL.csproj|D:\\quanlibaixe\\bll\\bslayer\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71103A19-30AC-4A24-8773-7AA920391305}|BLL\\BLL.csproj|solutionrelative:bll\\bslayer\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71103A19-30AC-4A24-8773-7AA920391305}|BLL\\BLL.csproj|D:\\quanlibaixe\\bll\\bslayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71103A19-30AC-4A24-8773-7AA920391305}|BLL\\BLL.csproj|solutionrelative:bll\\bslayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connector.cs",
+              "DocumentMoniker": "D:\\quanlibaixe\\DAL\\DBLayer\\Connector.cs",
+              "RelativeDocumentMoniker": "DAL\\DBLayer\\Connector.cs",
+              "ToolTip": "D:\\quanlibaixe\\DAL\\DBLayer\\Connector.cs",
+              "RelativeToolTip": "DAL\\DBLayer\\Connector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:17:03.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Attendant.cs",
+              "DocumentMoniker": "D:\\quanlibaixe\\BLL\\BSLayer\\Attendant.cs",
+              "RelativeDocumentMoniker": "BLL\\BSLayer\\Attendant.cs",
+              "ToolTip": "D:\\quanlibaixe\\BLL\\BSLayer\\Attendant.cs",
+              "RelativeToolTip": "BLL\\BSLayer\\Attendant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:16:53.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\quanlibaixe\\BLL\\BSLayer\\Customer.cs",
+              "RelativeDocumentMoniker": "BLL\\BSLayer\\Customer.cs",
+              "ToolTip": "D:\\quanlibaixe\\BLL\\BSLayer\\Customer.cs",
+              "RelativeToolTip": "BLL\\BSLayer\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:16:52.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "D:\\quanlibaixe\\BLL\\BSLayer\\Manager.cs",
+              "RelativeDocumentMoniker": "BLL\\BSLayer\\Manager.cs",
+              "ToolTip": "D:\\quanlibaixe\\BLL\\BSLayer\\Manager.cs",
+              "RelativeToolTip": "BLL\\BSLayer\\Manager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:16:50.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "login.cs",
+              "DocumentMoniker": "D:\\quanlibaixe\\BLL\\BSLayer\\login.cs",
+              "RelativeDocumentMoniker": "BLL\\BSLayer\\login.cs",
+              "ToolTip": "D:\\quanlibaixe\\BLL\\BSLayer\\login.cs",
+              "RelativeToolTip": "BLL\\BSLayer\\login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:16:49.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Constant.cs",
+              "DocumentMoniker": "D:\\quanlibaixe\\BLL\\BSLayer\\Constant.cs",
+              "RelativeDocumentMoniker": "BLL\\BSLayer\\Constant.cs",
+              "ToolTip": "D:\\quanlibaixe\\BLL\\BSLayer\\Constant.cs",
+              "RelativeToolTip": "BLL\\BSLayer\\Constant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:16:48.168Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

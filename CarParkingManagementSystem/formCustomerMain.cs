@@ -12,106 +12,115 @@ using CarParkingManagementSystem.BSLayer;
 
 namespace CarParkingManagementSystem
 {
-    public partial class formCustomerMain : Form
-    {
-        Customer customer = new Customer();
-        public string ID;
+	public partial class formCustomerMain : Form
+	{
+		Customer customer = new Customer();
+		public string ID;
 
-        public formCustomerMain(string id)
-        {
-            InitializeComponent();
-            ID = id;
-        }
+		public formCustomerMain(string id)
+		{
+			InitializeComponent();
+			ID = id;
+		}
 
-        public void openChildForm(Form childForm)
-        {
-            childForm.TopLevel = false;
-            childForm.FormBorderStyle = FormBorderStyle.None;
-            childForm.Dock = DockStyle.Fill;
-            pnlMain.Controls.Add(childForm);
-            pnlMain.Tag = childForm;
-            childForm.BringToFront();
-            childForm.Show();
-        }
+		public void openChildForm(Form childForm)
+		{
+			childForm.TopLevel = false;
+			childForm.FormBorderStyle = FormBorderStyle.None;
+			childForm.Dock = DockStyle.Fill;
+			pnlMain.Controls.Add(childForm);
+			pnlMain.Tag = childForm;
+			childForm.BringToFront();
+			childForm.Show();
+		}
 
-        public void LoadData()
-        {
-            btnUser.Text = "           " + customer.GetNameCustomer(ID).ToString();
-        }
+		public void LoadData()
+		{
+			btnUser.Text = "           " + customer.GetNameCustomer(ID).ToString();
+		}
 
-        private void formCustomerMain_Load(object sender, EventArgs e)
-        {
-            if (this.WindowState == FormWindowState.Maximized)
-            {
-                this.btnRestoreDown.Visible = true;
-                this.btnMaximize.Visible = false;
-            }
-            else
-            {
-                this.btnRestoreDown.Visible = false;
-                this.btnMaximize.Visible = true;
-            }
+		private void formCustomerMain_Load(object sender, EventArgs e)
+		{
+			if (this.WindowState == FormWindowState.Maximized)
+			{
+				this.btnRestoreDown.Visible = true;
+				this.btnMaximize.Visible = false;
+			}
+			else
+			{
+				this.btnRestoreDown.Visible = false;
+				this.btnMaximize.Visible = true;
+			}
 
-            LoadData();
-        }
+			LoadData();
+		}
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+		private void btnExit_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 
-        private void btnMaximize_Click(object sender, EventArgs e)
-        {
-            this.btnRestoreDown.Visible = true;
-            this.btnMaximize.Visible = false;
-            this.WindowState = FormWindowState.Maximized;
-        }
+		private void btnMaximize_Click(object sender, EventArgs e)
+		{
+			this.btnRestoreDown.Visible = true;
+			this.btnMaximize.Visible = false;
+			this.WindowState = FormWindowState.Maximized;
+		}
 
-        private void btnRestoreDown_Click(object sender, EventArgs e)
-        {
-            this.btnRestoreDown.Visible = false;
-            this.btnMaximize.Visible = true;
-            this.WindowState = FormWindowState.Normal;
-        }
+		private void btnRestoreDown_Click(object sender, EventArgs e)
+		{
+			this.btnRestoreDown.Visible = false;
+			this.btnMaximize.Visible = true;
+			this.WindowState = FormWindowState.Normal;
+		}
 
-        private void btnMinimize_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
+		private void btnMinimize_Click(object sender, EventArgs e)
+		{
+			this.WindowState = FormWindowState.Minimized;
+		}
 
-        private void btnBaidoxe_Click(object sender, EventArgs e)
-        {
-            btnUser.BackColor = Color.DarkSlateGray;
-            btnBaidoxe.BackColor = Color.Firebrick;
-            btnThongtindoxe.BackColor = Color.DarkSlateGray;
+		private void btnBaidoxe_Click(object sender, EventArgs e)
+		{
+			btnUser.BackColor = Color.DarkSlateGray;
+			btnBaidoxeoto.BackColor = Color.Firebrick;
+			btnThongtindoxe.BackColor = Color.DarkSlateGray;
 
-            openChildForm(new formParkingLot(ID, 0));
-        }
+			openChildForm(new formParkingLot(ID, 0));
+		}
 
-        private void btnThongtindoxe_Click(object sender, EventArgs e)
-        {
-            btnUser.BackColor = Color.DarkSlateGray;
-            btnBaidoxe.BackColor = Color.DarkSlateGray;
-            btnThongtindoxe.BackColor = Color.Firebrick;
+		private void btnThongtindoxe_Click(object sender, EventArgs e)
+		{
+			btnUser.BackColor = Color.DarkSlateGray;
+			btnBaidoxeoto.BackColor = Color.DarkSlateGray;
+			btnThongtindoxe.BackColor = Color.Firebrick;
 
-            openChildForm(new formParkingInformation(ID));
-        }
+			openChildForm(new formParkingInformation(ID));
+		}
 
-        private void btnUser_Click(object sender, EventArgs e)
-        {
-            btnUser.BackColor = Color.Firebrick;
-            btnBaidoxe.BackColor = Color.DarkSlateGray;
-            btnThongtindoxe.BackColor = Color.DarkSlateGray;
+		private void btnUser_Click(object sender, EventArgs e)
+		{
+			btnUser.BackColor = Color.Firebrick;
+			btnBaidoxeoto.BackColor = Color.DarkSlateGray;
+			btnThongtindoxe.BackColor = Color.DarkSlateGray;
 
-            formUserCustomer form = new formUserCustomer(ID);
-            form.ShowDialog();
-        }
+			formUserCustomer form = new formUserCustomer(ID);
+			form.ShowDialog();
+		}
 
-        private void btnLogout_Click(object sender, EventArgs e)
-        {
-            formLogin form = new formLogin();
-            this.Hide();
-            form.ShowDialog();
-        }
-    }
+		private void btnLogout_Click(object sender, EventArgs e)
+		{
+			formLogin form = new formLogin();
+			this.Hide();
+			form.ShowDialog();
+		}
+
+		private void btnBaidoxemay_Click(object sender, EventArgs e)
+		{
+			btnUser.BackColor = Color.DarkSlateGray;
+			btnBaidoxeoto.BackColor = Color.DarkSlateGray;
+			btnThongtindoxe.BackColor = Color.DarkSlateGray;
+			btnBaidoxemay.BackColor = Color.Firebrick;
+			openChildForm(new FormChoosCricel(ID, 0));
+		}
+	}
 }

@@ -36,6 +36,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.txtdattruoc = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbParked)).BeginInit();
             this.panel5.SuspendLayout();
@@ -45,6 +46,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.txtdattruoc);
             this.panel1.Controls.Add(this.ptbParked);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel2);
@@ -163,6 +165,14 @@
             this.panel3.TabIndex = 1;
             this.panel3.Click += new System.EventHandler(this.parkingSpace_Click);
             // 
+            // txtdattruoc
+            // 
+            this.txtdattruoc.AutoSize = true;
+            this.txtdattruoc.Location = new System.Drawing.Point(51, 122);
+            this.txtdattruoc.Name = "txtdattruoc";
+            this.txtdattruoc.Size = new System.Drawing.Size(0, 13);
+            this.txtdattruoc.TabIndex = 24;
+            // 
             // parkingSpace
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -175,6 +185,7 @@
             this.MouseEnter += new System.EventHandler(this.parkingSpace_MouseEnter);
             this.MouseLeave += new System.EventHandler(this.parkingSpace_MouseLeave);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbParked)).EndInit();
             this.panel5.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -193,5 +204,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox ptbParked;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label txtdattruoc;
     }
 }
